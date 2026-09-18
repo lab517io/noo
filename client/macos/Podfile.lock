@@ -1,0 +1,28 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - voice_audio (0.2.0):
+    - FlutterMacOS
+  - whisper_ggml (1.0.0):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - voice_audio (from `Flutter/ephemeral/.symlinks/plugins/voice_audio/macos`)
+  - whisper_ggml (from `Flutter/ephemeral/.symlinks/plugins/whisper_ggml/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  voice_audio:
+    :path: Flutter/ephemeral/.symlinks/plugins/voice_audio/macos
+  whisper_ggml:
+    :path: Flutter/ephemeral/.symlinks/plugins/whisper_ggml/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: c232990155153907050900a2e175c7773903ba4e
+  voice_audio: 1543f986249dc1946a8d89a664fd409c4fda9e0d
+  whisper_ggml: e5e0ee0c5b0f0485b9659f4ebcd340b7ceb94fac
+
+PODFILE CHECKSUM: 1e95c36afbfd1cb6423ceca4de7a8e1b256fb6ac
+
+COCOAPODS: 1.16.2

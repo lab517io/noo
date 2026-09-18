@@ -1,0 +1,11 @@
+# A stand-in for the real ffmpeg_kit_flutter_new_min, wired up through
+# dependency_overrides in the app's pubspec.yaml. See README.md for why.
+name: ffmpeg_kit_flutter_new_min
+description: >-
+  Stub replacing the real ffmpeg_kit_flutter_new_min, which whisper_ggml pulls
+  in for a code path this app never takes. Pure Dart, no native side.
+version: 2.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
