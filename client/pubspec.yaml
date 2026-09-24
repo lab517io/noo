@@ -1,0 +1,247 @@
+name: noo
+description: Tiny outliner with time tracking
+publish_to: 'none'
+# Plain major.minor.patch — no +build suffix. Android's versionCode is derived
+# from these three numbers in android/app/build.gradle.kts, so bumping the patch
+# is all a release needs. Keep minor and patch under 100 (see that file).
+version: 1.2.9
+
+environment:
+  # 3.12 / Flutter 3.44 is the real floor: flutter_quill 11.5.1 is the first
+  # release that compiles against the 3.44 framework (11.5.0 fails to implement
+  # the new QuillRawEditorState members), and it requires Dart ^3.12.0. The
+  # generator pins below were likewise resolved against 3.44 — on an older SDK
+  # `pub get` cannot solve them at all, because flutter_test there pins
+  # meta 1.17.0 while analyzer >=10.0.2 needs meta ^1.18.0.
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  #
+  # 3.4.x is out of reach on Flutter 3.44: riverpod_annotation pins riverpod
+  # exactly, and the annotation release that pins 3.4.2 needs a generator on
+  # analyzer ^13 — which flutter_test rules out (see riverpod_generator below).
+  flutter_riverpod: ^3.3.2
+  riverpod_annotation: ^4.0.3
+
+  # Database
+  #
+  # SQLCipher comes from package:sqlite3 itself: since 3.0 it bundles SQLite via
+  # Dart build hooks (see the `hooks:` section below) instead of loading it with
+  # DynamicLibrary, which is why there is no sqlcipher_flutter_libs plugin here
+  # any more — that package is now published as `0.7.0+eol`.
+  drift: ^2.34.3
+  sqlite3: ^3.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.0
+
+  # Platform Integration (use compatible versions)
+  window_manager: ^0.5.2
+
+  # Display geometry, used to validate a restored window position against the
+  # monitors currently attached. Already present as a window_manager transitive
+  # dependency at the same version; declared directly because we import it.
+  screen_retriever: ^0.2.2
+
+  # Single-instance enforcement (desktop, opt-in via Preferences)
+  windows_single_instance: ^1.2.0
+  unix_single_instance: ^0.0.4
+
+  # Storage
+  shared_preferences: ^2.0.0
+  flutter_secure_storage: ^10.0.0
+
+  # Tree View
+  flutter_fancy_tree_view: ^1.6.0
+
+  # File Picker
+  #
+  # 12.x is the federated rewrite: pickFiles returns List<PlatformFile> rather
+  # than a nullable FilePickerResult, and saveFile returns a Uri rather than a
+  # path. It is also the line that moves to win32 ^6, which is what unpins
+  # package_info_plus and windows_single_instance above, and the only line whose
+  # Android side builds under AGP 9 (see android/settings.gradle.kts).
+  file_picker: ^12.1.2
+
+  # Audio playback for attachments.
+  #
+  # Plays from a loopback HTTP URL rather than a file or a byte buffer:
+  # attachment bytes live in the encrypted database, BytesSource is not
+  # supported on every desktop platform, and a temp file would put decrypted
+  # media on disk. See data/services/attachment_media_server.dart.
+  audioplayers: ^6.8.0
+
+  # Rich Text Editor
+  flutter_quill: ^11.0.0-dev
+  dart_quill_delta: ^10.0.0
+  flutter_quill_delta_from_html: ^1.0.0
+
+  # Crypto
+  crypto: ^3.0.0
+  cryptography: ^2.7.0
+
+  # HTTP
+  http: ^1.2.0
+
+  # Diff computation
+  diff_match_patch: ^0.4.1
+
+  # Utilities
+  package_info_plus: ^10.2.1
+  uuid: ^4.6.0
+  intl: any
+  collection: ^1.18.0
+  equatable: ^2.0.0
+  share_plus: ^13.3.0
+  open_filex: ^4.7.0
+
+  # Help → Check for Update opens the release page / APK in the browser.
+  url_launcher: ^6.3.2
+  archive: ^4.0.9
+
+  # Biometric unlock (Android): gates the remembered-password auto-unlock
+  # behind fingerprint/face. Requires MainActivity : FlutterFragmentActivity.
+  local_auth: ^3.0.2
+
+  # Clipboard images, for pasting a screenshot into task content.
+  #
+  # flutter_quill's own image paste goes through quill_native_bridge, which
+  # still cannot do this on Windows: quill_native_bridge_windows 0.1.0 declares
+  # only getClipboardHtml, copyHtmlToClipboard and saveImage, so both
+  # getClipboardImage and getClipboardFiles are unavailable there. (Linux and
+  # macOS do support both — the Linux implementation arrived with win32 ^6 —
+  # so only Windows is holding this back now.)
+  #
+  # This package covers all three desktops as a single dependency with no
+  # transitive ones. It is also the last plugin applying the external Kotlin
+  # Gradle plugin, so replacing it would clear that warning — revisit when
+  # quill_native_bridge_windows implements clipboard image reading. See
+  # presentation/widgets/task_editor/clipboard_image.dart for the text-vs-image
+  # precedence and the Windows BMP re-encoding that any replacement must keep.
+  pasteboard: ^0.5.0
+
+  ffi: ^2.2.0
+
+  # Voice memos: capture, Opus, the Ogg container and playback, all native.
+  #
+  # This replaced `record` (PCM capture) and `opus_codec` (the libopus binary)
+  # together with the hand-written encoder, decoder and Ogg muxer they needed —
+  # see AUDIO_MEMO.md §5. It builds libopus and libogg from source and links
+  # them statically, which is what finally makes the feature self-contained on
+  # Linux: `opus_codec_linux` shipped zero-byte blobs, so the "bundled binary"
+  # never loaded and a system libopus.so.0 was the only path.
+  #
+  # An FFI plugin, so there is no method channel and no platform code — but
+  # there is a C++ build, which is why Android needs the NDK and minSdk 28
+  # (AAudio's setUsage/setContentType/setInputPreset are API 28).
+  voice_audio: ^0.3.1
+
+  # The microphone permission on Android. voice_audio deliberately requests
+  # nothing at runtime — it declares RECORD_AUDIO in its manifest and leaves
+  # the asking to the app, which is the only way a binding can behave when it
+  # cannot know when the app wants to ask.
+  permission_handler: ^12.0.0
+
+  whisper_ggml: ^2.6.0
+
+# whisper_ggml depends on ffmpeg_kit_flutter_new_min unconditionally, but only
+# its file API (Whisper.transcribe) uses it, and this app uses only the live
+# session — see the header of lib/data/services/audio/whisper_service.dart.
+# The real package carried ~57 MB of ffmpeg native libraries into the bundle for
+# a code path that is never reached, so it is replaced by a pure-Dart stub with
+# no plugin and no native side. Re-check when upgrading whisper_ggml: if it
+# starts using more of the ffmpeg API, the stub stops compiling.
+# See packages/ffmpeg_kit_flutter_new_min_stub/README.md.
+dependency_overrides:
+  ffmpeg_kit_flutter_new_min:
+    path: packages/ffmpeg_kit_flutter_new_min_stub
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # These two resolve to the newest builds still on analyzer ^12 (drift_dev
+  # 2.34.0, riverpod_generator 4.0.4). The ceiling is the Flutter SDK, not these
+  # packages: flutter_test pins test_api 0.7.11, analyzer 13 needs test >1.31.0
+  # which pins test_api 0.7.12+, so nothing here can move to analyzer 13 until
+  # Flutter itself does. Only the generators are affected — the drift and
+  # riverpod runtimes are at their newest compatible releases.
+  drift_dev: ^2.34.0
+  build_runner: ^2.4.0
+  riverpod_generator: ^4.0.4
+
+# Build-hook configuration for package:sqlite3. `sqlcipher` selects the SQLCipher
+# community-edition build (rather than plain SQLite, which cannot decrypt our
+# databases, or `sqlite3mc`, which uses an incompatible encryption scheme). The
+# binary is fetched per-platform at build time and shipped as a code asset, so
+# every platform gets the same cipher library and none of them needs the manual
+# `open.overrideFor` probing that main.dart used to carry.
+hooks:
+  user_defines:
+    sqlite3:
+      source: sqlcipher
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/styles/
+    # Named one by one rather than as a directory: `assets/fonts/` would pull
+    # the .ttf files in a second time, beside the `fonts:` section below.
+    - assets/fonts/OFL-JetBrainsMono.txt
+    - assets/fonts/OFL-CascadiaMono.txt
+    - assets/fonts/OFL-Inconsolata.txt
+    - assets/fonts/OFL-SourceCodePro.txt
+    - assets/fonts/OFL-IBMPlexMono.txt
+
+  # The bundled console fonts, and the only families the app can promise are
+  # fixed-width. Nothing generic can be: a probe of the real engine
+  # (`tool/font_probe.dart`) shows Flutter on Linux resolving `monospace` to a
+  # *proportional* face, and an uninstalled family — JetBrains Mono among them,
+  # on the machine this was written on — falls back to the default without an
+  # error. Text whose columns have to line up (Format as table, and whatever
+  # Preferences → Monospace fonts only offers) therefore names these assets,
+  # which resolve identically on Linux, Windows and Android.
+  #
+  # Consolas is not among them and cannot be: it ships with Windows and Office
+  # and is not redistributable. Cascadia Mono is Microsoft's own successor to
+  # it, and Inconsolata was drawn as an open homage to it.
+  #
+  # Regular and Bold only, ~2.7MB in all: italic is synthesised, which a
+  # monospace face tolerates because the advance widths do not change. Every
+  # one is OFL-1.1, and each licence travels with it in assets/fonts/ and is
+  # registered with the LicenseRegistry in main.dart, so it reaches the About
+  # box's licence list rather than only the source tree.
+  fonts:
+    - family: JetBrains Mono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-Regular.ttf
+        - asset: assets/fonts/JetBrainsMono-Bold.ttf
+          weight: 700
+    - family: Cascadia Mono
+      fonts:
+        - asset: assets/fonts/CascadiaMono-Regular.ttf
+        - asset: assets/fonts/CascadiaMono-Bold.ttf
+          weight: 700
+    - family: Inconsolata
+      fonts:
+        - asset: assets/fonts/Inconsolata-Regular.ttf
+        - asset: assets/fonts/Inconsolata-Bold.ttf
+          weight: 700
+    - family: Source Code Pro
+      fonts:
+        - asset: assets/fonts/SourceCodePro-Regular.ttf
+        - asset: assets/fonts/SourceCodePro-Bold.ttf
+          weight: 700
+    - family: IBM Plex Mono
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Regular.ttf
+        - asset: assets/fonts/IBMPlexMono-Bold.ttf
+          weight: 700
