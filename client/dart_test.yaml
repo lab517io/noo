@@ -1,0 +1,4 @@
+# Declares the `e2e` tag used by test/e2e/relay_sync_e2e_test.dart (live-relay
+# harness; every test there also self-skips unless NOO_E2E=1).
+tags:
+  e2e:
