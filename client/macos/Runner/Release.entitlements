@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sandbox disabled: the app opens user databases at arbitrary paths
+	     (e.g. ~/Documents/my.noo) across launches. Under the sandbox the
+	     open/save-panel grant dies with the process, so every relaunch fails
+	     to read the file — surfacing as a bogus "incorrect password". Proper
+	     sandbox support would need persisted security-scoped bookmarks
+	     (required if this ever ships to the Mac App Store). -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+	<!-- Voice memos need the microphone. Required in *both* entitlement
+	     files: the debug build uses DebugProfile, the shipped one uses
+	     Release, and a permission missing from either fails only in that
+	     configuration. -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+</dict>
+</plist>
