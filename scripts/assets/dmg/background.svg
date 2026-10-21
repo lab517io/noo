@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Background for the mounted Noo disk image, 640x380 logical points.
+
+  Finder draws the icons on top of this: the app centred on (170, 191) and the
+  Applications symlink on (470, 191), 128pt each with a text label underneath.
+  The two cards here are the slots those icons sit in, so the positions are
+  duplicated in scripts/build_macos.py (DMG_APP_POS / DMG_LINK_POS); move one
+  and the artwork stops lining up with the icons.
+
+  Nothing important may sit below y=350. The window Finder opens is measured
+  including its title bar, and a user who has the path bar switched on loses
+  another ~26pt at the bottom, so the last band of this image is gradient only.
+
+  Rendered to PNG with scripts/assets/dmg/render.sh (WebKit via qlmanage;
+  ImageMagick's own SVG renderer drops every gradient in here).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380">
+  <defs>
+    <linearGradient id="sheet" x1="0" y1="0" x2="640" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0"    stop-color="#FDFBFF"/>
+      <stop offset="0.5"  stop-color="#F7F2FD"/>
+      <stop offset="1"    stop-color="#E9E1F6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="96" y1="112" x2="244" y2="288" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.68"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="264" y1="0" x2="378" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6750A4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6750A4" stop-opacity="0.70"/>
+    </linearGradient>
+    <filter id="lift" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#3B2C5E" flood-opacity="0.13"/>
+    </filter>
+    <!-- The app's own glyph, reused as a watermark. -->
+    <path id="glyph" d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"/>
+  </defs>
+
+  <rect width="640" height="380" fill="url(#sheet)"/>
+
+  <!-- Watermarks: large, very faint, clear of both icon cells. -->
+  <g fill="#6750A4" opacity="0.055">
+    <use href="#glyph" transform="translate(-34,230) scale(8.5)"/>
+    <use href="#glyph" transform="translate(500,-22) scale(6)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="-apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="58" font-size="33" font-weight="700" fill="#241D2E" letter-spacing="-0.2">Noo</text>
+    <text x="320" y="85" font-size="13.5" font-weight="400" fill="#6D6579" letter-spacing="0.25">Tiny outliner with time tracking</text>
+  </g>
+
+  <!-- The slot the app icon sits in. -->
+  <g filter="url(#lift)">
+    <rect x="96" y="112" width="148" height="176" rx="24" ry="24" fill="url(#card)"
+          stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="1"/>
+  </g>
+
+  <!-- The slot Applications sits in: a drop target, so it is drawn open. -->
+  <rect x="396" y="112" width="148" height="176" rx="24" ry="24"
+        fill="#6750A4" fill-opacity="0.035"
+        stroke="#9B8CC6" stroke-opacity="0.6" stroke-width="1.6"
+        stroke-dasharray="6 7" stroke-linecap="round"/>
+
+  <!-- Drag this way. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="266" y1="191" x2="358" y2="191" stroke="url(#arrow)" stroke-width="3.5"/>
+    <path d="M351 180 L366 191 L351 202" stroke="#6750A4" stroke-opacity="0.7" stroke-width="3.5"/>
+  </g>
+
+  <!-- Footer -->
+  <text x="320" y="326" text-anchor="middle"
+        font-family="-apple-system, Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="12.5" font-weight="500" fill="#6750A4" fill-opacity="0.8" letter-spacing="0.2"
+  >Drag Noo onto Applications to install</text>
+</svg>

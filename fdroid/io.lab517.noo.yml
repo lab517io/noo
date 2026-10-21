@@ -1,0 +1,49 @@
+Categories:
+  - Note
+  - Time Tracker
+License: MIT
+AuthorName: lab517.io
+WebSite: https://github.com/lab517io/noo
+SourceCode: https://github.com/lab517io/noo
+IssueTracker: https://github.com/lab517io/noo/issues
+Changelog: https://github.com/lab517io/noo/releases
+
+AutoName: Noo
+
+RepoType: git
+Repo: https://github.com/lab517io/noo.git
+Binaries: https://github.com/lab517io/noo/releases/download/v%v/noo-%v-android.apk
+
+Builds:
+  - versionName: 1.2.17
+    versionCode: 10217
+    commit: v1.2.17
+    subdir: client
+    output: build/app/outputs/flutter-apk/app-release.apk
+    srclibs:
+      - flutter@3.47.2
+    rm:
+      - client/linux
+      - client/windows
+      - client/macos
+      - installer
+    prebuild:
+      - export PUB_CACHE=$(pwd)/.pub-cache
+      - $$flutter$$/bin/flutter config --no-analytics
+      - $$flutter$$/bin/flutter pub get --enforce-lockfile
+      - sed -i -e 's/ndkVersion "29.0.13113456"/ndkVersion "28.2.13676358"/' $PUB_CACHE/hosted/pub.dev/whisper_ggml-*/android/build.gradle
+    scandelete:
+      - client/.pub-cache
+    build:
+      - export PUB_CACHE=$(pwd)/.pub-cache
+      - export NOO_UNSIGNED_RELEASE=1
+      - $$flutter$$/bin/flutter build apk --release
+    ndk: 28.2.13676358
+
+AllowedAPKSigningKeys: 0eb42dbdecdbdd996ab12a79617d4e1015b482f0a78aa0912f5b020dac6cfffc
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags ^v\d+\.\d+\.\d+$
+UpdateCheckData: client/pubspec.yaml|#\sfdroid-version-code:\s(\d+)|.|(?m)^version:\s(\d+\.\d+\.\d+)
+CurrentVersion: 1.2.17
+CurrentVersionCode: 10217
