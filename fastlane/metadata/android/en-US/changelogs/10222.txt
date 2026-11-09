@@ -1,0 +1,1 @@
+Time tracking is now an option in Preferences → Behavior: off for a new install, kept on for an existing one, and recorded time is kept either way. Sync points at noo.lab517.io by default. The welcome screen explains how to bring a database over from another device: create one with the same password and sync.
