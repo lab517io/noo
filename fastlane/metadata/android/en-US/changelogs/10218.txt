@@ -1,0 +1,1 @@
+Source Code Pro is now the default font for notes, the outline and the interface; the editor toolbar and Preferences name the font in use. Any other font, including the system one, can still be chosen in Preferences.
