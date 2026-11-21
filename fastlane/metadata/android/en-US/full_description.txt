@@ -1,0 +1,23 @@
+Noo is a tiny outliner with time tracking. Notes and tasks live in a tree with unlimited nesting, in one encrypted database file that only you can open.
+
+<b>Features</b>
+<ul>
+<li><b>Outline</b> — nest tasks as deep as you like, move them with drag and drop, and find anything with full-text search over titles and notes.</li>
+<li><b>Rich-text notes</b> — formatting, lists, headings, fonts and colours, inline images, and a "Format as table" command for colon-separated columns.</li>
+<li><b>Time tracking</b> — start and stop a timer on any task; reports as a tree, per day, as a flat list or as CSV.</li>
+<li><b>Attachments</b> — any file, with image previews and audio playback in place.</li>
+<li><b>Voice memos</b> — record from the editor; memos are stored as Ogg Opus attachments.</li>
+<li><b>On-device transcription</b> — optional speech-to-text with whisper.cpp, entirely on the phone. No audio leaves the device.</li>
+<li><b>Encrypted storage</b> — the database is encrypted at rest (SQLCipher 4 format); the password can be remembered behind fingerprint or face unlock.</li>
+<li><b>End-to-end encrypted sync</b> — between your devices through a relay server you run yourself (the relay is open source and stores only ciphertext), or directly between devices on the same Wi-Fi with no server and no account at all.</li>
+<li><b>Obsidian export and import</b> — round-trip the tree to a Markdown vault.</li>
+</ul>
+
+Noo also runs on Linux, Windows and macOS, and the same database opens on all of them.
+
+<b>Network use</b>
+Noo connects to nothing unless you ask it to:
+<ul>
+<li>Sync talks to the relay server whose address you enter, and only when you sync. Sync over Wi-Fi runs only while its dialog is open.</li>
+<li>Transcription needs a speech model (78 to 488 MB). It is downloaded from Hugging Face only when you press Download in Preferences.</li>
+</ul>

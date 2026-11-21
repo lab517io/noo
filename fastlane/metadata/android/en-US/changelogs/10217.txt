@@ -1,0 +1,3 @@
+First release on F-Droid.
+
+The database engine is now built from source (SQLite3 Multiple Ciphers, SQLCipher 4 format); existing databases open unchanged.

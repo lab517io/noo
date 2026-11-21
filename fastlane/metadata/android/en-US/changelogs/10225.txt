@@ -1,0 +1,1 @@
+A running clock now stays in view when another task is selected: a status bar chip, a timer in the tree and the time in the window title. On desktops, an optional mini window (Preferences → Behavior) replaces minimizing while tracking with a small always-on-top clock. Word wrap can be turned off for the note editor, from Preferences, the editor's context menu or the status bar.

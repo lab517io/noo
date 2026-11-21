@@ -1,0 +1,1 @@
+Opening a database with a remembered password no longer fails with "Biometric check failed" on Linux, Windows and macOS: the biometric gate applies on Android only. The Linux build works on Ubuntu 26.04.
