@@ -1,0 +1,1 @@
+The interface is now available in German, French, Italian, Russian, Turkish, Simplified Chinese and Japanese (Preferences → Appearance → Language). Links between notes: type [[ to link to another task. Format as table can split columns on = | ; , or Tab as well as a colon, keeps URLs and quoted text whole, and lines up Markdown tables.

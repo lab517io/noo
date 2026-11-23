@@ -1,0 +1,8 @@
+# Flutter's gen-l10n: lib/l10n/app_<lang>.arb -> lib/l10n/app_localizations*.dart.
+# app_en.arb is the source; every other language is a translation of it.
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+untranslated-messages-file: build/l10n_untranslated.json

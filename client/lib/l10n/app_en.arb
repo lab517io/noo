@@ -1,0 +1,4670 @@
+{
+  "@@locale": "en",
+  "appMenuFile": "File",
+  "@appMenuFile": {
+    "description": "Top-level menu"
+  },
+  "appMenuEdit": "Edit",
+  "@appMenuEdit": {
+    "description": "Top-level menu (macOS)"
+  },
+  "appMenuView": "View",
+  "@appMenuView": {
+    "description": "Top-level menu"
+  },
+  "appMenuTools": "Tools",
+  "@appMenuTools": {
+    "description": "Top-level menu"
+  },
+  "appMenuDebug": "Debug",
+  "@appMenuDebug": {
+    "description": "Top-level menu shown only in debug builds"
+  },
+  "appMenuHelp": "Help",
+  "@appMenuHelp": {
+    "description": "Top-level menu"
+  },
+  "appMenuWindow": "Window",
+  "@appMenuWindow": {
+    "description": "Top-level menu (macOS)"
+  },
+  "appMenuOpen": "Open...",
+  "@appMenuOpen": {
+    "description": "Desktop menu bar item (Windows/Linux); keep the trailing ..."
+  },
+  "appMenuOpenDatabase": "Open Database...",
+  "@appMenuOpenDatabase": {
+    "description": "Phone overflow menu item; keep the trailing ..."
+  },
+  "appMenuNewDatabase": "New Database...",
+  "@appMenuNewDatabase": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuExportObsidian": "Export to Obsidian...",
+  "@appMenuExportObsidian": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuImportObsidian": "Import from Obsidian...",
+  "@appMenuImportObsidian": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuExit": "Exit",
+  "@appMenuExit": {
+    "description": "Desktop menu bar item (Windows/Linux)"
+  },
+  "appMenuFind": "Find...",
+  "@appMenuFind": {
+    "description": "Desktop menu bar item (Windows/Linux); keep the trailing ..."
+  },
+  "appMenuTheme": "Theme",
+  "@appMenuTheme": {
+    "description": "View menu submenu, and title of the phone theme picker"
+  },
+  "appMenuThemeEllipsis": "Theme...",
+  "@appMenuThemeEllipsis": {
+    "description": "Phone overflow menu item opening the theme picker; keep the trailing ..."
+  },
+  "appThemeSystem": "System",
+  "@appThemeSystem": {
+    "description": "Theme choice: follow the operating system"
+  },
+  "appThemeLight": "Light",
+  "@appThemeLight": {
+    "description": "Theme choice"
+  },
+  "appThemeDark": "Dark",
+  "@appThemeDark": {
+    "description": "Theme choice"
+  },
+  "appMenuTimeline": "Timeline...",
+  "@appMenuTimeline": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuTimeReport": "Time Report...",
+  "@appMenuTimeReport": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuCompactDatabase": "Compact Database...",
+  "@appMenuCompactDatabase": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuSyncNow": "Sync Now",
+  "@appMenuSyncNow": {
+    "description": "Tools menu item: sync with the server"
+  },
+  "appMenuSyncP2p": "Sync P2P...",
+  "@appMenuSyncP2p": {
+    "description": "Menu item: sync with devices on the local network; keep the trailing ..."
+  },
+  "appMenuPreferences": "Preferences...",
+  "@appMenuPreferences": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuViewChangeHistory": "View Change History...",
+  "@appMenuViewChangeHistory": {
+    "description": "Debug menu item; keep the trailing ..."
+  },
+  "appMenuGenerateTestData": "Generate Test Data",
+  "@appMenuGenerateTestData": {
+    "description": "Debug menu item, and title of its confirmation dialog"
+  },
+  "appMenuGenerateLargeDataset": "Generate Large Dataset",
+  "@appMenuGenerateLargeDataset": {
+    "description": "Debug menu item, and title of its confirmation dialog"
+  },
+  "appMenuClearAllData": "Clear All Data",
+  "@appMenuClearAllData": {
+    "description": "Debug menu item, and title of its confirmation dialog"
+  },
+  "appMenuCheckForUpdate": "Check for Update...",
+  "@appMenuCheckForUpdate": {
+    "description": "Help menu item; keep the trailing ..."
+  },
+  "appMenuLogs": "Logs",
+  "@appMenuLogs": {
+    "description": "Help menu submenu"
+  },
+  "appMenuSyncLog": "Sync Log...",
+  "@appMenuSyncLog": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuAppLog": "App Log...",
+  "@appMenuAppLog": {
+    "description": "Menu item; keep the trailing ..."
+  },
+  "appMenuAbout": "About {appName}",
+  "@appMenuAbout": {
+    "description": "Help menu item and About dialog title; appName is the product name",
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "appMacMenuCheckForUpdate": "Check for Update…",
+  "@appMacMenuCheckForUpdate": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuSettings": "Settings…",
+  "@appMacMenuSettings": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis). The macOS name for Preferences"
+  },
+  "appMacMenuQuit": "Quit {appName}",
+  "@appMacMenuQuit": {
+    "description": "macOS application menu item",
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "appMacMenuOpen": "Open…",
+  "@appMacMenuOpen": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuNewDatabase": "New Database…",
+  "@appMacMenuNewDatabase": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuExportObsidian": "Export to Obsidian…",
+  "@appMacMenuExportObsidian": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuImportObsidian": "Import from Obsidian…",
+  "@appMacMenuImportObsidian": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuUndo": "Undo",
+  "@appMacMenuUndo": {
+    "description": "macOS Edit menu item"
+  },
+  "appMacMenuRedo": "Redo",
+  "@appMacMenuRedo": {
+    "description": "macOS Edit menu item"
+  },
+  "appMacMenuCut": "Cut",
+  "@appMacMenuCut": {
+    "description": "macOS Edit menu item"
+  },
+  "appMacMenuPaste": "Paste",
+  "@appMacMenuPaste": {
+    "description": "macOS Edit menu item"
+  },
+  "appMacMenuSelectAll": "Select All",
+  "@appMacMenuSelectAll": {
+    "description": "macOS Edit menu item"
+  },
+  "appMacMenuFind": "Find…",
+  "@appMacMenuFind": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuTimeline": "Timeline…",
+  "@appMacMenuTimeline": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuTimeReport": "Time Report…",
+  "@appMacMenuTimeReport": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuCompactDatabase": "Compact Database…",
+  "@appMacMenuCompactDatabase": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuSyncP2p": "Sync P2P…",
+  "@appMacMenuSyncP2p": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuViewChangeHistory": "View Change History…",
+  "@appMacMenuViewChangeHistory": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis) (debug builds only)"
+  },
+  "appMacMenuSyncLog": "Sync Log…",
+  "@appMacMenuSyncLog": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuAppLog": "App Log…",
+  "@appMacMenuAppLog": {
+    "description": "macOS system menu bar item; keep the trailing … (Unicode ellipsis)"
+  },
+  "appMacMenuChecked": "✓ {label}",
+  "@appMacMenuChecked": {
+    "description": "macOS menu item marked as the active choice (platform menus have no check mark)",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "appOpenDatabaseDialogTitle": "Open Database",
+  "@appOpenDatabaseDialogTitle": {
+    "description": "Title of the file picker for opening a database"
+  },
+  "appCreateDatabaseDialogTitle": "Create New Database",
+  "@appCreateDatabaseDialogTitle": {
+    "description": "Title of the save dialog for a new database"
+  },
+  "appIncorrectPasswordRetry": "Incorrect password. Please try again.",
+  "appDatabaseOpened": "Opened: {fileName}",
+  "@appDatabaseOpened": {
+    "description": "Snack bar after opening a database",
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "appOpenDatabaseFailed": "Failed to open database: {error}",
+  "@appOpenDatabaseFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appDatabaseCreated": "Created: {fileName}",
+  "@appDatabaseCreated": {
+    "description": "Snack bar after creating a database",
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "appCreateDatabaseFailed": "Failed to create database: {error}",
+  "@appCreateDatabaseFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appOpenDatabaseFirst": "Open a database first",
+  "appNoDatabaseOpen": "No database open",
+  "appCannotReadDatabaseFile": "Cannot read database file: {error}",
+  "@appCannotReadDatabaseFile": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appWrongPasswordOrCorrupt": "Incorrect password or corrupted database",
+  "appExportObsidianDialogTitle": "Export to Obsidian Directory",
+  "@appExportObsidianDialogTitle": {
+    "description": "Directory picker title"
+  },
+  "appImportObsidianDialogTitle": "Import from Obsidian Directory",
+  "@appImportObsidianDialogTitle": {
+    "description": "Directory picker title"
+  },
+  "appImportObsidianZipDialogTitle": "Import Obsidian .zip",
+  "@appImportObsidianZipDialogTitle": {
+    "description": "File picker title (phones)"
+  },
+  "appExportingObsidian": "Exporting to Obsidian format...",
+  "@appExportingObsidian": {
+    "description": "Progress dialog"
+  },
+  "appImportingObsidian": "Importing from Obsidian format...",
+  "@appImportingObsidian": {
+    "description": "Progress dialog"
+  },
+  "appCountTasks": "{count, plural, other{{count} tasks}}",
+  "@appCountTasks": {
+    "description": "Used inside appExportResult / appImportResult. English deliberately always says \"tasks\"",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appCountTimelineFiles": "{count, plural, other{{count} timeline files}}",
+  "@appCountTimelineFiles": {
+    "description": "Used inside appExportResult",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appCountImages": "{count, plural, other{{count} images}}",
+  "@appCountImages": {
+    "description": "Used inside appExportResult",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appCountTimeRecords": "{count, plural, other{{count} time records}}",
+  "@appCountTimeRecords": {
+    "description": "Used inside appImportResult",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appExportResult": "Exported {tasks}, {timelineFiles}, {images}",
+  "@appExportResult": {
+    "description": "Snack bar after an Obsidian export; each placeholder is a counted phrase (appCountTasks, appCountTimelineFiles, appCountImages)",
+    "placeholders": {
+      "tasks": {
+        "type": "String"
+      },
+      "timelineFiles": {
+        "type": "String"
+      },
+      "images": {
+        "type": "String"
+      }
+    }
+  },
+  "appImportResult": "Imported {tasks}, {timeRecords}",
+  "@appImportResult": {
+    "description": "Snack bar after an Obsidian import; placeholders are counted phrases (appCountTasks, appCountTimeRecords)",
+    "placeholders": {
+      "tasks": {
+        "type": "String"
+      },
+      "timeRecords": {
+        "type": "String"
+      }
+    }
+  },
+  "appExportFailed": "Export failed: {error}",
+  "@appExportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appImportFailed": "Import failed: {error}",
+  "@appImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appObsidianExportShareTitle": "{count, plural, other{Obsidian export ({count} tasks)}}",
+  "@appObsidianExportShareTitle": {
+    "description": "Title of the share sheet for the exported vault archive (phones)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appDirectoryDoesNotExist": "Directory does not exist: {path}",
+  "@appDirectoryDoesNotExist": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "appSyncNotConfigured": "Sync not configured. Open Sync Settings first.",
+  "appNoSyncServer": "No sync server configured. Use Sync P2P... (Shift+F5), or add a server in Preferences.",
+  "@appNoSyncServer": {
+    "description": "Keep \"Sync P2P...\" and \"(Shift+F5)\" as the menu item and shortcut are named"
+  },
+  "appUnsyncedChangesTitle": "Unsynced changes",
+  "@appUnsyncedChangesTitle": {
+    "description": "Dialog title on exit"
+  },
+  "appUnsyncedChangesBody": "There are unsynced changes; do you want to sync them?",
+  "appDontSync": "Don't sync",
+  "@appDontSync": {
+    "description": "Button: close without syncing"
+  },
+  "appSync": "Sync",
+  "@appSync": {
+    "description": "Button: sync before closing"
+  },
+  "appSelectTaskFirst": "Select a task first",
+  "appGenerateTestDataBody": "This will create sample tasks with hierarchy and time records.\n\nContinue?",
+  "appGenerate": "Generate",
+  "@appGenerate": {
+    "description": "Button"
+  },
+  "appTestDataGenerated": "Test data generated successfully",
+  "appGenerateLargeDatasetBody": "This will create a large dataset with:\n- 20 top-level tasks\n- Up to 5 levels deep\n- Up to 6 children per task\n- Time records for many tasks\n\nThis may take a moment. Continue?",
+  "appGeneratingData": "Generating data...",
+  "appLargeDatasetGenerated": "Large dataset generated successfully",
+  "appClearAllDataBody": "This will permanently delete all tasks, time records, and attachments.\n\nThis action cannot be undone. Are you sure?",
+  "appDeleteAll": "Delete All",
+  "@appDeleteAll": {
+    "description": "Button"
+  },
+  "appAllDataCleared": "All data cleared",
+  "appCompactDatabaseTitle": "Compact Database",
+  "@appCompactDatabaseTitle": {
+    "description": "Dialog title"
+  },
+  "appCompactDatabaseBody": "Rewrites the database file so the space held by deleted tasks, attachments and old change history is returned to the disk.\n\nThe contents of deleted attachments are released too, and are downloaded again from the server if you ever restore one.\n\nNothing you can still see is removed. On a large database this takes a while, and the app cannot be used until it finishes.",
+  "appCompact": "Compact",
+  "@appCompact": {
+    "description": "Button"
+  },
+  "appCompactingDatabase": "Compacting database...",
+  "@appCompactingDatabase": {
+    "description": "Progress dialog"
+  },
+  "appCompactingFailed": "Compacting failed: {error}",
+  "@appCompactingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appDatabaseCompacted": "Database compacted",
+  "appDatabaseCompactedFreed": "Database compacted — {freed} freed (now {size})",
+  "@appDatabaseCompactedFreed": {
+    "description": "freed and size are byte sizes such as \"12.3 MB\"",
+    "placeholders": {
+      "freed": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appDatabaseCompactedAlready": "Database compacted — already compact ({size})",
+  "@appDatabaseCompactedAlready": {
+    "description": "size is a byte size such as \"12.3 MB\"",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appDatabaseCompactedWithNote": "{result}. {note}",
+  "@appDatabaseCompactedWithNote": {
+    "description": "Compaction result followed by why deleted attachments were kept",
+    "placeholders": {
+      "result": {
+        "type": "String"
+      },
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "appFindTooltip": "Find",
+  "@appFindTooltip": {
+    "description": "Tooltip of the search button (phone app bar)"
+  },
+  "appSyncNowTooltip": "Sync now",
+  "@appSyncNowTooltip": {
+    "description": "Tooltip of the sync button (phone app bar)"
+  },
+  "appBiometricFailed": "Biometric check failed. Please enter password.",
+  "appSavedPasswordIncorrect": "Saved password is incorrect. Please enter password.",
+  "appLoading": "Loading...",
+  "appFailedToOpenDatabaseTitle": "Failed to Open Database",
+  "@appFailedToOpenDatabaseTitle": {
+    "description": "Heading on the startup screen"
+  },
+  "appOpenAnotherDatabase": "Open another database…",
+  "@appOpenAnotherDatabase": {
+    "description": "Button on the startup screen"
+  },
+  "appBiometricReason": "Unlock your Noo database",
+  "@appBiometricReason": {
+    "description": "Shown by the operating system in the fingerprint/face prompt (Android)"
+  },
+  "appWelcomeTitle": "Welcome to {appName}",
+  "@appWelcomeTitle": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "appWelcomeIntro": "Choose where to store your encrypted database. You can change this later from the File menu.",
+  "appUseDefaultLocation": "Use default location",
+  "appResolving": "Resolving…",
+  "@appResolving": {
+    "description": "Shown while the default database location is being determined"
+  },
+  "appCreateNewDatabaseOption": "Create new database…",
+  "@appCreateNewDatabaseOption": {
+    "description": "Option on the welcome screen"
+  },
+  "appCreateNewDatabaseSubtitle": "Pick a custom location for a new encrypted database.",
+  "appOpenExistingDatabaseOption": "Open existing database…",
+  "@appOpenExistingDatabaseOption": {
+    "description": "Option on the welcome screen"
+  },
+  "appOpenExistingDatabaseSubtitle": "Use an existing .noo file from another location.",
+  "appQuit": "Quit",
+  "@appQuit": {
+    "description": "Button on the welcome screen"
+  },
+  "appWelcomeSyncHint": "Already have a database on another device? Create a new one here with the same password, then set up sync in Preferences → Sync with the same user name — your notes will arrive with the first sync.",
+  "appTaskFallbackTitle": "Task",
+  "@appTaskFallbackTitle": {
+    "description": "Phone task screen title when the task has no title"
+  },
+  "appTabNotes": "Notes",
+  "@appTabNotes": {
+    "description": "Tab on the phone task screen"
+  },
+  "appTabTime": "Time",
+  "@appTabTime": {
+    "description": "Tab on the phone task screen"
+  },
+  "appTabFiles": "Files",
+  "@appTabFiles": {
+    "description": "Tab on the phone task screen"
+  },
+  "appTabFilesCount": "Files ({count})",
+  "@appTabFilesCount": {
+    "description": "Tab on the phone task screen with the number of attachments",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appStartTracking": "Start tracking",
+  "@appStartTracking": {
+    "description": "Tooltip"
+  },
+  "appStopTracking": "Stop tracking",
+  "@appStopTracking": {
+    "description": "Tooltip"
+  },
+  "appNoTaskSelected": "No task selected.",
+  "appAttachmentsHeading": "Attachments",
+  "@appAttachmentsHeading": {
+    "description": "Heading of the attachments tab"
+  },
+  "appModified": "Modified",
+  "@appModified": {
+    "description": "Status bar: the note has unsaved changes"
+  },
+  "appWordWrapOnTooltip": "Word wrap is on — click to turn it off",
+  "appWordWrapOffTooltip": "Word wrap is off — click to turn it on",
+  "appTimeTodayTap": "Time tracked today — tap to open",
+  "@appTimeTodayTap": {
+    "description": "Status bar tooltip (phone)"
+  },
+  "appHideTimeTracking": "Hide time tracking",
+  "@appHideTimeTracking": {
+    "description": "Status bar tooltip"
+  },
+  "appTimeTodayClick": "Time tracked today — click for details",
+  "@appTimeTodayClick": {
+    "description": "Status bar tooltip (desktop)"
+  },
+  "appViewTimeline": "View timeline",
+  "@appViewTimeline": {
+    "description": "Tooltip"
+  },
+  "appAttachmentsTap": "Attachments — tap to open",
+  "@appAttachmentsTap": {
+    "description": "Status bar tooltip (phone)"
+  },
+  "appHideAttachments": "Hide attachments",
+  "@appHideAttachments": {
+    "description": "Status bar tooltip"
+  },
+  "appAttachmentsClick": "Attachments — click to show",
+  "@appAttachmentsClick": {
+    "description": "Status bar tooltip (desktop)"
+  },
+  "appAddAttachment": "Add attachment",
+  "@appAddAttachment": {
+    "description": "Tooltip"
+  },
+  "appUntitledInPath": "(untitled)",
+  "@appUntitledInPath": {
+    "description": "An untitled task in the status bar path"
+  },
+  "appSyncStatusDisabled": "Sync disabled — click to sync",
+  "@appSyncStatusDisabled": {
+    "description": "Sync icon tooltip"
+  },
+  "appSyncStatusUnknown": "Not synced yet — click to sync",
+  "@appSyncStatusUnknown": {
+    "description": "Sync icon tooltip"
+  },
+  "appSyncStatusIdle": "Synced — click to sync",
+  "@appSyncStatusIdle": {
+    "description": "Sync icon tooltip"
+  },
+  "appSyncStatusSyncing": "Syncing...",
+  "@appSyncStatusSyncing": {
+    "description": "Sync icon tooltip"
+  },
+  "appSyncStatusError": "Sync error — click to retry",
+  "@appSyncStatusError": {
+    "description": "Sync icon tooltip"
+  },
+  "appSyncStatusPending": "Pending changes — click to sync",
+  "@appSyncStatusPending": {
+    "description": "Sync icon tooltip"
+  },
+  "appSyncStatusIncoming": "Other devices have sent changes — click to sync",
+  "@appSyncStatusIncoming": {
+    "description": "Sync icon tooltip"
+  },
+  "appTrackingChipTooltip": "Tracking time on \"{title}\" — click to go to it",
+  "@appTrackingChipTooltip": {
+    "description": "Status bar chip for the task whose clock is running",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "appStopTrackingTask": "Stop tracking \"{title}\"",
+  "@appStopTrackingTask": {
+    "description": "Tooltip",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "appTrackingMinutes": "{minutes}m",
+  "@appTrackingMinutes": {
+    "description": "Minutes of the running clock at the start of the window title, e.g. \"42m\"; keep it very short",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "appPendingMore": "+{count} more",
+  "@appPendingMore": {
+    "description": "More items not listed in the pending-sync preview",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appPendingItemDetail": "{fields} · {ago}",
+  "@appPendingItemDetail": {
+    "description": "Changed fields, then how long ago (e.g. \"title, content · 5 min ago\")",
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      },
+      "ago": {
+        "type": "String"
+      }
+    }
+  },
+  "appCountItems": "{count, plural, =1{1 item} other{{count} items}}",
+  "@appCountItems": {
+    "description": "Used inside appPendingSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appCountChanges": "{count, plural, =1{1 change} other{{count} changes}}",
+  "@appCountChanges": {
+    "description": "Used inside appPendingSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appPendingSummary": "Waiting to sync: {items}, {changes}",
+  "@appPendingSummary": {
+    "description": "Placeholders are counted phrases (appCountItems, appCountChanges)",
+    "placeholders": {
+      "items": {
+        "type": "String"
+      },
+      "changes": {
+        "type": "String"
+      }
+    }
+  },
+  "appPendingFieldTitle": "title",
+  "@appPendingFieldTitle": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldContent": "content",
+  "@appPendingFieldContent": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldMoved": "moved",
+  "@appPendingFieldMoved": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldReordered": "reordered",
+  "@appPendingFieldReordered": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldFlags": "flags",
+  "@appPendingFieldFlags": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldDeleted": "deleted",
+  "@appPendingFieldDeleted": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldName": "name",
+  "@appPendingFieldName": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldStartTime": "start time",
+  "@appPendingFieldStartTime": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appPendingFieldEndTime": "end time",
+  "@appPendingFieldEndTime": {
+    "description": "Lower-case name of a changed field in the pending-sync preview, joined into a list"
+  },
+  "appJustNow": "just now",
+  "@appJustNow": {
+    "description": "Pending-sync preview: changed less than a minute ago"
+  },
+  "appMinutesAgo": "{count, plural, other{{count} min ago}}",
+  "@appMinutesAgo": {
+    "description": "Short form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appHoursAgo": "{count, plural, other{{count} h ago}}",
+  "@appHoursAgo": {
+    "description": "Short form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appDaysAgo": "{count, plural, other{{count} d ago}}",
+  "@appDaysAgo": {
+    "description": "Short form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appEnterPasswordTitle": "Enter Password",
+  "@appEnterPasswordTitle": {
+    "description": "Dialog title"
+  },
+  "appSetDatabasePasswordTitle": "Set Database Password",
+  "@appSetDatabasePasswordTitle": {
+    "description": "Dialog title"
+  },
+  "appPasswordLabel": "Password",
+  "@appPasswordLabel": {
+    "description": "Field label"
+  },
+  "appConfirmPasswordLabel": "Confirm Password",
+  "@appConfirmPasswordLabel": {
+    "description": "Field label"
+  },
+  "appPleaseEnterPassword": "Please enter a password",
+  "appPasswordTooShort": "Password must be at least 4 characters",
+  "appPasswordsDoNotMatch": "Passwords do not match",
+  "appPasswordWarning": "The password will be used to encrypt your database. If you forget it, the data cannot be recovered.",
+  "appCreate": "Create",
+  "@appCreate": {
+    "description": "Button: create the database"
+  },
+  "appStrengthVeryWeak": "Very weak",
+  "@appStrengthVeryWeak": {
+    "description": "Password strength"
+  },
+  "appStrengthWeak": "Weak",
+  "@appStrengthWeak": {
+    "description": "Password strength"
+  },
+  "appStrengthFair": "Fair",
+  "@appStrengthFair": {
+    "description": "Password strength"
+  },
+  "appStrengthGood": "Good",
+  "@appStrengthGood": {
+    "description": "Password strength"
+  },
+  "appStrengthStrong": "Strong",
+  "@appStrengthStrong": {
+    "description": "Password strength"
+  },
+  "appTagline": "Tiny outliner with time tracking",
+  "@appTagline": {
+    "description": "Subtitle in the About dialog"
+  },
+  "appAboutDescription": "A cross-platform desktop outliner application for organizing your thoughts, tasks, and projects with built-in time tracking.",
+  "appBuiltWithFlutter": "Built with Flutter",
+  "appCheckForUpdateTitle": "Check for Update",
+  "@appCheckForUpdateTitle": {
+    "description": "Dialog title"
+  },
+  "appCouldNotOpen": "Could not open {url}",
+  "@appCouldNotOpen": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "appOpenReleasePage": "Open Release Page",
+  "@appOpenReleasePage": {
+    "description": "Button"
+  },
+  "appDownloadApk": "Download APK",
+  "@appDownloadApk": {
+    "description": "Button"
+  },
+  "appDownloadDiskImage": "Download Disk Image",
+  "@appDownloadDiskImage": {
+    "description": "Button (macOS .dmg)"
+  },
+  "appCheckingForUpdate": "Checking for a new version...",
+  "appUpdateCheckFailed": "Update check failed",
+  "appUpToDate": "{appName} {version} is the latest version.",
+  "@appUpToDate": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateAvailable": "{appName} {version} is available (you have {installed}).",
+  "@appUpdateAvailable": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "installed": {
+        "type": "String"
+      }
+    }
+  },
+  "appDownloadingUpdate": "Downloading {appName} {version}...",
+  "@appDownloadingUpdate": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appDownloadProgress": "{received} of {total}",
+  "@appDownloadProgress": {
+    "description": "Byte sizes, e.g. \"3.2 MB of 20.1 MB\"",
+    "placeholders": {
+      "received": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateReadyToInstall": "{appName} {version} is downloaded and verified. Installing it closes {appName}, replaces the program files and starts it again. Your databases are not touched.",
+  "@appUpdateReadyToInstall": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateInstalled": "{appName} {version} is installed. Restart to start using it.",
+  "@appUpdateInstalled": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appLater": "Later",
+  "@appLater": {
+    "description": "Button"
+  },
+  "appInstall": "Install",
+  "@appInstall": {
+    "description": "Button"
+  },
+  "appInstallAndRestart": "Install and Restart",
+  "@appInstallAndRestart": {
+    "description": "Button"
+  },
+  "appRestartNow": "Restart Now",
+  "@appRestartNow": {
+    "description": "Button"
+  },
+  "appUpdGithubTimeout": "GitHub did not answer in time",
+  "appUpdCannotReachGithub": "Cannot reach GitHub: {error}",
+  "@appUpdCannotReachGithub": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdGithubStatus": "GitHub answered {status} for the latest release",
+  "@appUpdGithubStatus": {
+    "description": "status is an HTTP status code",
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "appUpdUnexpectedDataDetail": "Unexpected release data: {error}",
+  "@appUpdUnexpectedDataDetail": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdUnexpectedData": "Unexpected release data",
+  "appUpdNoInPlace": "No in-place update on this platform",
+  "appUpdNoWindowsInstaller": "Release {version} has no Windows installer",
+  "@appUpdNoWindowsInstaller": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdNoWindowsZip": "Release {version} has no Windows ZIP",
+  "@appUpdNoWindowsZip": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdCannotWrite": "Cannot write to {path}; download the new version manually",
+  "@appUpdCannotWrite": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdZipMissingExe": "{fileName} does not contain {path}",
+  "@appUpdZipMissingExe": {
+    "description": "fileName is the downloaded ZIP, path the program inside it",
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdInvalidZip": "The download is not a valid ZIP: {error}",
+  "@appUpdInvalidZip": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdUnsafeZipPath": "The ZIP holds an unsafe path: {path}",
+  "@appUpdUnsafeZipPath": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdCannotUnpack": "Cannot unpack the download: {error}",
+  "@appUpdCannotUnpack": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdNotAppImage": "Not running from an AppImage",
+  "appUpdNoAppImage": "Release {version} has no Linux AppImage",
+  "@appUpdNoAppImage": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdCannotChmod": "Cannot make the new AppImage executable: {error}",
+  "@appUpdCannotChmod": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdCannotReplace": "Cannot replace {path}: {error}",
+  "@appUpdCannotReplace": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdDownloadFailed": "Download failed: {error}",
+  "@appUpdDownloadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdDownloadStatus": "Download failed: server answered {status}",
+  "@appUpdDownloadStatus": {
+    "description": "status is an HTTP status code",
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "appUpdCannotSave": "Cannot save the download: {error}",
+  "@appUpdCannotSave": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdInterrupted": "Download interrupted: {error}",
+  "@appUpdInterrupted": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdChecksumMismatch": "The downloaded file does not match its published checksum",
+  "appUpdNoChecksums": "Release {version} publishes no checksums; download it manually",
+  "@appUpdNoChecksums": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdChecksumTimeout": "Checksum download timed out",
+  "appUpdChecksumFailed": "Checksum download failed: {error}",
+  "@appUpdChecksumFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdChecksumStatus": "Checksum download failed: server answered {status}",
+  "@appUpdChecksumStatus": {
+    "description": "status is an HTTP status code",
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "appUpdNotListed": "{fileName} is not listed in {checksumsFile}",
+  "@appUpdNotListed": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      },
+      "checksumsFile": {
+        "type": "String"
+      }
+    }
+  },
+  "appLogCopied": "App log copied to clipboard",
+  "appLogTitle": "App Log",
+  "@appLogTitle": {
+    "description": "Dialog title; also the share sheet title"
+  },
+  "appLogSaveDialogTitle": "Save App Log",
+  "@appLogSaveDialogTitle": {
+    "description": "Save dialog title"
+  },
+  "appSavedTo": "Saved to {path}",
+  "@appSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "appSaveFailed": "Failed to save: {error}",
+  "@appSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appShare": "Share",
+  "@appShare": {
+    "description": "Tooltip"
+  },
+  "appClearLogTooltip": "Clear log",
+  "@appClearLogTooltip": {
+    "description": "Tooltip"
+  },
+  "appClearLogButton": "Clear Log",
+  "@appClearLogButton": {
+    "description": "Button"
+  },
+  "appSaveEllipsis": "Save...",
+  "@appSaveEllipsis": {
+    "description": "Button opening a save dialog; keep the trailing ..."
+  },
+  "appSearchHint": "Search",
+  "@appSearchHint": {
+    "description": "Hint text of a filter field"
+  },
+  "appLogLevelAll": "All",
+  "@appLogLevelAll": {
+    "description": "Log level filter"
+  },
+  "appLogLevelWarnings": "Warnings and errors",
+  "@appLogLevelWarnings": {
+    "description": "Log level filter"
+  },
+  "appLogLevelErrors": "Errors",
+  "@appLogLevelErrors": {
+    "description": "Log level filter"
+  },
+  "appLogEmpty": "Nothing has been logged yet.",
+  "appLogNoMatch": "No lines match.",
+  "appHistoryTitle": "Change History",
+  "@appHistoryTitle": {
+    "description": "Debug dialog title"
+  },
+  "appHistoryFilter": "Filter: ",
+  "@appHistoryFilter": {
+    "description": "Label before filter chips; keep the trailing space"
+  },
+  "appHistoryAll": "All ({count})",
+  "@appHistoryAll": {
+    "description": "Filter chip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appHistoryTasks": "Tasks ({count})",
+  "@appHistoryTasks": {
+    "description": "Filter chip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appHistoryFiles": "Files ({count})",
+  "@appHistoryFiles": {
+    "description": "Filter chip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appHistoryTimeline": "Timeline ({count})",
+  "@appHistoryTimeline": {
+    "description": "Filter chip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appHistoryError": "Error: {error}",
+  "@appHistoryError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appHistoryEmpty": "No history entries found",
+  "appHistoryFieldsChanged": "{count, plural, =0{0 field changed} =1{1 field changed} other{{count} fields changed}}",
+  "@appHistoryFieldsChanged": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appHistoryShowing": "Showing {shown} of {total} grouped entries ({changes} total field changes)",
+  "@appHistoryShowing": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "changes": {
+        "type": "int"
+      }
+    }
+  },
+  "appHistoryOld": "Old:",
+  "@appHistoryOld": {
+    "description": "Label before the old value"
+  },
+  "appHistoryNew": "New:",
+  "@appHistoryNew": {
+    "description": "Label before the new value"
+  },
+  "commonOk": "OK",
+  "commonCancel": "Cancel",
+  "commonClose": "Close",
+  "commonSave": "Save",
+  "commonSaveAs": "Save as...",
+  "commonDelete": "Delete",
+  "commonRename": "Rename",
+  "commonRemove": "Remove",
+  "commonAdd": "Add",
+  "commonOpen": "Open",
+  "commonCopy": "Copy",
+  "commonApply": "Apply",
+  "commonRetry": "Retry",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonBrowse": "Browse...",
+  "commonError": "Error",
+  "commonShow": "Show",
+  "commonHide": "Hide",
+  "commonClear": "Clear",
+  "commonRefresh": "Refresh",
+  "commonTest": "Test",
+  "commonDownload": "Download",
+  "commonNone": "None",
+  "commonSystemDefault": "System default",
+  "commonUntitled": "Untitled",
+  "languageSystem": "System default",
+  "@languageSystem": {
+    "description": "Preferences > Appearance > Language: follow the operating system's language"
+  },
+  "editorImageNotAvailable": "Image not available",
+  "@editorImageNotAvailable": {
+    "description": "Placeholder drawn in a note where an embedded image cannot be loaded"
+  },
+  "editorImageResize": "Resize...",
+  "@editorImageResize": {
+    "description": "Menu item on an image embedded in a note; opens the resize dialog"
+  },
+  "editorImageReplace": "Replace image...",
+  "@editorImageReplace": {
+    "description": "Menu item on an image embedded in a note; opens a file picker"
+  },
+  "editorImageSaveAs": "Save image as...",
+  "@editorImageSaveAs": {
+    "description": "Menu item on an image embedded in a note; opens a save dialog"
+  },
+  "editorImageRemoveFromText": "Remove from text",
+  "@editorImageRemoveFromText": {
+    "description": "Menu item on an image embedded in a note: removes the image from the note only"
+  },
+  "editorImageRemoveFromTextHint": "Keeps the file in Attachments",
+  "@editorImageRemoveFromTextHint": {
+    "description": "Subtitle under 'Remove from text'"
+  },
+  "editorImageDelete": "Delete image",
+  "@editorImageDelete": {
+    "description": "Menu item on an image embedded in a note: removes it and deletes the attachment"
+  },
+  "editorImageDeleteHint": "Also deletes the attachment",
+  "@editorImageDeleteHint": {
+    "description": "Subtitle under 'Delete image'"
+  },
+  "editorImageKeptInOtherTask": "Image removed from the text. The file belongs to another task and was kept there.",
+  "@editorImageKeptInOtherTask": {
+    "description": "Snack bar after 'Delete image' on an image whose file belongs to a different task"
+  },
+  "editorResizeImageTitle": "Resize image",
+  "@editorResizeImageTitle": {
+    "description": "Title of the image resize dialog"
+  },
+  "editorResizeWidth": "Width",
+  "@editorResizeWidth": {
+    "description": "Label of the width field (in pixels) in the image resize dialog"
+  },
+  "editorResizePercentOf": "{percent}% of {natural} px",
+  "@editorResizePercentOf": {
+    "description": "Resize dialog: the chosen width as a percentage of the image's natural width in pixels",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "natural": {
+        "type": "int"
+      }
+    }
+  },
+  "editorResizeOriginalSize": "Original size",
+  "@editorResizeOriginalSize": {
+    "description": "Button in the image resize dialog: reset to the image's own size"
+  },
+  "editorInsertImage": "Insert image",
+  "@editorInsertImage": {
+    "description": "Toolbar button tooltip and file picker title for inserting an image into a note"
+  },
+  "editorReplaceImageDialogTitle": "Replace image",
+  "@editorReplaceImageDialogTitle": {
+    "description": "Title of the file picker that replaces an embedded image"
+  },
+  "editorSaveImageDialogTitle": "Save image",
+  "@editorSaveImageDialogTitle": {
+    "description": "Title of the save dialog for an embedded image"
+  },
+  "editorSavedFile": "Saved: {name}",
+  "@editorSavedFile": {
+    "description": "Snack bar after saving an image to disk",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "shot.png"
+      }
+    }
+  },
+  "editorAttachFileTooltipCompact": "Attach file\n(long-press to show attachments)",
+  "@editorAttachFileTooltipCompact": {
+    "description": "Tooltip of the floating attach button on a phone; keep the line break"
+  },
+  "editorAttachFileTooltip": "Attach file\n(long-press to show or hide attachments)",
+  "@editorAttachFileTooltip": {
+    "description": "Tooltip of the floating attach button on a desktop; keep the line break"
+  },
+  "editorStopRecording": "Stop recording",
+  "@editorStopRecording": {
+    "description": "Tooltip of the voice memo button while recording"
+  },
+  "editorRecordVoiceMemo": "Record voice memo",
+  "@editorRecordVoiceMemo": {
+    "description": "Tooltip of the editor toolbar's microphone button"
+  },
+  "editorRecordVoiceMemoTooltip": "Record voice memo\n(long-press to record without transcribing)",
+  "@editorRecordVoiceMemoTooltip": {
+    "description": "Tooltip of the floating microphone button over the note; keep the line break"
+  },
+  "editorAttachedOne": "Attached {name}",
+  "@editorAttachedOne": {
+    "description": "Snack bar after attaching one file",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "report.pdf"
+      }
+    }
+  },
+  "editorAttachedMany": "{count, plural, =1{Attached 1 file} other{Attached {count} files}}",
+  "@editorAttachedMany": {
+    "description": "Snack bar after attaching several files (count is always 2 or more)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "editorFontFamily": "Font family",
+  "@editorFontFamily": {
+    "description": "Tooltip of the editor toolbar's font menu"
+  },
+  "editorFontSize": "Font size",
+  "@editorFontSize": {
+    "description": "Tooltip of the editor toolbar's size menu"
+  },
+  "editorSizeLabel": "Size",
+  "@editorSizeLabel": {
+    "description": "Short label on the toolbar's size menu when no size is known"
+  },
+  "editorSizeSmall": "Small",
+  "@editorSizeSmall": {
+    "description": "Named text size (short toolbar label)"
+  },
+  "editorSizeLarge": "Large",
+  "@editorSizeLarge": {
+    "description": "Named text size (short toolbar label)"
+  },
+  "editorSizeHuge": "Huge",
+  "@editorSizeHuge": {
+    "description": "Named text size (short toolbar label)"
+  },
+  "editorStartTyping": "Start typing...",
+  "@editorStartTyping": {
+    "description": "Placeholder shown in an empty note"
+  },
+  "editorLinkedTaskGone": "The linked task no longer exists.",
+  "@editorLinkedTaskGone": {
+    "description": "Snack bar when a link to another task is opened but that task was deleted"
+  },
+  "editorRemoveFormatting": "Remove formatting",
+  "@editorRemoveFormatting": {
+    "description": "Editor context menu item"
+  },
+  "editorFormatAsTable": "Format as table ({separator})",
+  "@editorFormatAsTable": {
+    "description": "Editor context menu item: line up the selected lines in columns split on the separator",
+    "placeholders": {
+      "separator": {
+        "type": "String",
+        "example": ":"
+      }
+    }
+  },
+  "editorWordWrapOff": "Turn word wrap off",
+  "@editorWordWrapOff": {
+    "description": "Editor context menu item"
+  },
+  "editorWordWrapOn": "Turn word wrap on",
+  "@editorWordWrapOn": {
+    "description": "Editor context menu item"
+  },
+  "editorErrorMessage": "Error: {error}",
+  "@editorErrorMessage": {
+    "description": "Shown in the editor panel when the task failed to load",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editorTaskNotFound": "Task not found",
+  "editorSelectTask": "Select a task to edit",
+  "@editorSelectTask": {
+    "description": "Shown in the editor panel when no task is selected"
+  },
+  "editorSaveFailed": "Failed to save task: {error}",
+  "@editorSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editorChangesMerged": "This note was changed elsewhere while you were editing it. Both changes were merged.",
+  "@editorChangesMerged": {
+    "description": "Snack bar: a sync or an AI agent changed the note while it was being edited"
+  },
+  "editorConflictCopyKept": "This note was changed elsewhere while you were editing it. Your text was saved; the other version is kept as \"{copyTitle}\".",
+  "@editorConflictCopyKept": {
+    "description": "Snack bar: the other version of the note was kept as a new task with this title",
+    "placeholders": {
+      "copyTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "treeNewTask": "New task (Ctrl+N)",
+  "@treeNewTask": {
+    "description": "Tooltip of the tree toolbar's add button, with its shortcut"
+  },
+  "treeNewChildTask": "New child task (Ctrl+Shift+N)",
+  "@treeNewChildTask": {
+    "description": "Tooltip of the tree toolbar's add-child button, with its shortcut"
+  },
+  "treeDeleteTask": "Delete task",
+  "@treeDeleteTask": {
+    "description": "Tooltip of the tree toolbar's delete button"
+  },
+  "treeExpandAll": "Expand all",
+  "treeCollapseAll": "Collapse all",
+  "treeNoTasks": "No tasks yet",
+  "@treeNoTasks": {
+    "description": "Shown in an empty outline"
+  },
+  "treeCreateFirstTask": "Create your first task",
+  "@treeCreateFirstTask": {
+    "description": "Button in an empty outline"
+  },
+  "treeTrackedHere": "Time is being tracked on this task",
+  "@treeTrackedHere": {
+    "description": "Tooltip of the timer icon on the tracked task's row"
+  },
+  "treeTrackedInside": "Time is being tracked on a task inside",
+  "@treeTrackedInside": {
+    "description": "Tooltip of the timer badge on a collapsed row that hides the tracked task"
+  },
+  "treeHiddenFromAgents": "Hidden from AI agents, including everything under it",
+  "@treeHiddenFromAgents": {
+    "description": "Tooltip of the badge on a branch excluded from the MCP server"
+  },
+  "treeMoveUp": "Move up",
+  "@treeMoveUp": {
+    "description": "Tree context menu item"
+  },
+  "treeMoveDown": "Move down",
+  "@treeMoveDown": {
+    "description": "Tree context menu item"
+  },
+  "treeMoveToParentLevel": "Move to parent level",
+  "@treeMoveToParentLevel": {
+    "description": "Tree context menu item: outdent the task"
+  },
+  "treeMoveUnderPrevious": "Move under previous",
+  "@treeMoveUnderPrevious": {
+    "description": "Tree context menu item: indent the task under the sibling above"
+  },
+  "treeAddChildTask": "Add child task",
+  "@treeAddChildTask": {
+    "description": "Tree context menu item"
+  },
+  "treeStartTracking": "Start tracking",
+  "@treeStartTracking": {
+    "description": "Tree context menu item: start time tracking on this task"
+  },
+  "treeStopTracking": "Stop tracking",
+  "@treeStopTracking": {
+    "description": "Tree context menu item: stop time tracking"
+  },
+  "treeTimeline": "Timeline...",
+  "@treeTimeline": {
+    "description": "Tree context menu item; opens the task's time records"
+  },
+  "searchHint": "Search tasks...",
+  "@searchHint": {
+    "description": "Placeholder of the search field"
+  },
+  "searchResultCount": "{count, plural, =1{1 result} other{{count} results}}",
+  "@searchResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchNoMatches": "No matches",
+  "searchUntitled": "(untitled)",
+  "@searchUntitled": {
+    "description": "Shown in search results for a task with an empty title"
+  },
+  "attachImageNotAvailable": "Image not available",
+  "@attachImageNotAvailable": {
+    "description": "Shown in place of an attachment image preview that cannot be decoded"
+  },
+  "attachTryAgain": "Try again",
+  "@attachTryAgain": {
+    "description": "Tooltip of the retry button after audio playback of an attachment failed"
+  },
+  "attachPlay": "Play",
+  "@attachPlay": {
+    "description": "Tooltip: start audio playback of an attachment"
+  },
+  "attachPause": "Pause",
+  "@attachPause": {
+    "description": "Tooltip: pause audio playback of an attachment"
+  },
+  "attachLoadFailed": "Failed to load attachments: {error}",
+  "@attachLoadFailed": {
+    "description": "The attachment list of a task could not be read; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "attachNone": "No attachments",
+  "@attachNone": {
+    "description": "Empty state of a task's attachment list"
+  },
+  "attachAddFile": "Add file",
+  "@attachAddFile": {
+    "description": "Button in the empty attachment list"
+  },
+  "attachNotDownloaded": "This attachment has not been downloaded yet — sync to fetch it",
+  "@attachNotDownloaded": {
+    "description": "Snack bar: the attachment's bytes have not arrived from another device yet"
+  },
+  "attachContentLoadFailed": "Failed to load attachment content",
+  "@attachContentLoadFailed": {
+    "description": "Snack bar"
+  },
+  "attachDownloading": "Downloading attachment…",
+  "@attachDownloading": {
+    "description": "Progress dialog while one attachment is fetched from another device"
+  },
+  "attachExportDialogTitle": "Export attachment",
+  "@attachExportDialogTitle": {
+    "description": "Title of the save-file dialog when exporting an attachment"
+  },
+  "attachExported": "Exported: {name}",
+  "@attachExported": {
+    "description": "Snack bar after an attachment was saved; name is the file name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "attachNoAppCanOpen": "No app can open {name}",
+  "@attachNoAppCanOpen": {
+    "description": "Phone: no installed app handles this file type; name is the file name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "attachImageInNoteTitle": "Image is in the note",
+  "@attachImageInNoteTitle": {
+    "description": "Dialog title: an attachment cannot be deleted because the note shows it as an image"
+  },
+  "attachImageInNoteBody": "\"{name}\" is shown in this task's note, so it cannot be deleted from here.\n\nClick the image in the note and choose \"Delete image\" to remove both the picture and the file, or \"Remove from text\" to keep the file and delete it here afterwards.",
+  "@attachImageInNoteBody": {
+    "description": "Dialog body. \"Delete image\" and \"Remove from text\" are the names of items in the image's own menu in the editor; use the same translations as those menu items. name is the file name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "attachDeleteTitle": "Delete attachment?",
+  "@attachDeleteTitle": {
+    "description": "Confirmation dialog title"
+  },
+  "attachDeleteConfirm": "Are you sure you want to delete \"{name}\"?",
+  "@attachDeleteConfirm": {
+    "description": "Confirmation dialog body; name is the attachment's file name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "attachRenameTitle": "Rename attachment",
+  "@attachRenameTitle": {
+    "description": "Dialog title"
+  },
+  "attachFileName": "File name",
+  "@attachFileName": {
+    "description": "Label of the text field in the Rename attachment dialog"
+  },
+  "attachShowPreview": "Show preview",
+  "@attachShowPreview": {
+    "description": "Tooltip: expand an image attachment's preview"
+  },
+  "attachHidePreview": "Hide preview",
+  "@attachHidePreview": {
+    "description": "Tooltip: collapse an image attachment's preview"
+  },
+  "attachShare": "Share",
+  "@attachShare": {
+    "description": "Attachment row menu item (phones): hand the file to another app"
+  },
+  "attachExport": "Export",
+  "@attachExport": {
+    "description": "Attachment row menu item (desktop): save the file to disk"
+  },
+  "attachTranscribe": "Transcribe",
+  "@attachTranscribe": {
+    "description": "Attachment row menu item: turn a voice memo into text in the note"
+  },
+  "attachCannotPlay": "Cannot play this file",
+  "@attachCannotPlay": {
+    "description": "Error shown under an audio attachment whose playback failed"
+  },
+  "attachPlaybackUnavailable": "Playback is unavailable",
+  "@attachPlaybackUnavailable": {
+    "description": "Error shown under an audio attachment when the player cannot be reached"
+  },
+  "voiceStoppedAtLimit": "Recording stopped at the {minutes, plural, other{{minutes} minute}} limit. The memo was saved.",
+  "@voiceStoppedAtLimit": {
+    "description": "Notice in the recording bar after a voice memo hit the maximum length",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceReachedLimit": "Reached the {minutes, plural, other{{minutes} minute}} limit",
+  "@voiceReachedLimit": {
+    "description": "Tooltip on the recording bar's icon once the memo reached its maximum length",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceDismiss": "Dismiss",
+  "@voiceDismiss": {
+    "description": "Tooltip: close the voice memo notice"
+  },
+  "voiceOpeningMic": "Opening the microphone…",
+  "@voiceOpeningMic": {
+    "description": "Recording bar while the microphone starts"
+  },
+  "voiceSaving": "Saving…",
+  "@voiceSaving": {
+    "description": "Recording bar while the memo is being stored"
+  },
+  "voiceSavedTranscribing": "Saved. Transcribing…",
+  "@voiceSavedTranscribing": {
+    "description": "Recording bar: the memo is stored and is now being turned into text"
+  },
+  "voiceSavedTranscribingPercent": "Saved. Transcribing… {percent}%",
+  "@voiceSavedTranscribingPercent": {
+    "description": "Like voiceSavedTranscribing, with progress; percent is 0-100",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceDiscard": "Discard",
+  "@voiceDiscard": {
+    "description": "Tooltip: throw away the recording in progress"
+  },
+  "voiceStop": "Stop",
+  "@voiceStop": {
+    "description": "Button: stop recording and save the memo"
+  },
+  "voiceChooseModelFirst": "Choose a transcription model in Preferences first",
+  "@voiceChooseModelFirst": {
+    "description": "Snack bar"
+  },
+  "voiceModelNotDownloaded": "The {model} model has not been downloaded yet — see Preferences",
+  "@voiceModelNotDownloaded": {
+    "description": "Snack bar; model is the name of a speech recognition model",
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceTranscribing": "Transcribing…",
+  "@voiceTranscribing": {
+    "description": "Snack bar while a stored memo is turned into text"
+  },
+  "voiceTranscribingPercent": "Transcribing… {percent}%",
+  "@voiceTranscribingPercent": {
+    "description": "Like voiceTranscribing, with progress; percent is 0-100",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceTranscribeFailed": "Could not transcribe: {error}",
+  "@voiceTranscribeFailed": {
+    "description": "Snack bar; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceNoSpeech": "No speech found in this memo",
+  "@voiceNoSpeech": {
+    "description": "Snack bar after transcription found no words"
+  },
+  "voiceTranscribedNoteNotOpen": "Transcribed, but the note it belongs to is not open",
+  "@voiceTranscribedNoteNotOpen": {
+    "description": "Snack bar: the text could not be inserted because the user moved to another task"
+  },
+  "voiceDiscardedDatabaseSwitched": "The recording was discarded because another database was opened.",
+  "@voiceDiscardedDatabaseSwitched": {
+    "description": "Recording bar notice"
+  },
+  "voiceMicPermissionRefused": "Microphone permission was refused",
+  "@voiceMicPermissionRefused": {
+    "description": "Recording error"
+  },
+  "voiceStartFailed": "Could not start recording: {error}",
+  "@voiceStartFailed": {
+    "description": "Recording error; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceRecordingFailed": "Recording failed: {error}",
+  "@voiceRecordingFailed": {
+    "description": "Recording error; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceFinishFailed": "Could not finish the recording: {error}",
+  "@voiceFinishFailed": {
+    "description": "Recording error; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceNoDatabase": "No database is open, so the memo could not be saved",
+  "@voiceNoDatabase": {
+    "description": "Recording error"
+  },
+  "voiceSaveFailed": "Could not save the memo: {error}",
+  "@voiceSaveFailed": {
+    "description": "Recording error; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timeTimelineTitle": "Timeline",
+  "@timeTimelineTitle": {
+    "description": "Title of the dialog listing a task's time records"
+  },
+  "timeStatsToday": "Today:",
+  "@timeStatsToday": {
+    "description": "Label in the time statistics panel, followed by a duration"
+  },
+  "timeStatsThisMonth": "This month:",
+  "@timeStatsThisMonth": {
+    "description": "Label in the time statistics panel, followed by a duration"
+  },
+  "timeRecordingSince": "Recording since {time}",
+  "@timeRecordingSince": {
+    "description": "Time tracking is running; time is a clock time like 14:05",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "timeEndBeforeStart": "End time must be after start time",
+  "@timeEndBeforeStart": {
+    "description": "Validation error in the time interval dialog"
+  },
+  "timeOverlaps": "Overlaps with an existing interval",
+  "@timeOverlaps": {
+    "description": "Validation error in the time interval dialog"
+  },
+  "timeAddIntervalTitle": "Add Time Interval",
+  "@timeAddIntervalTitle": {
+    "description": "Dialog title"
+  },
+  "timeEditIntervalTitle": "Edit Time Interval",
+  "@timeEditIntervalTitle": {
+    "description": "Dialog title"
+  },
+  "timeStartTime": "Start time:",
+  "@timeStartTime": {
+    "description": "Label in the time interval dialog, followed by date and time buttons; column is about 90px wide"
+  },
+  "timeFinishTime": "Finish time:",
+  "@timeFinishTime": {
+    "description": "Label in the time interval dialog, followed by date and time buttons; column is about 90px wide"
+  },
+  "timeDurationLabel": "Duration:",
+  "@timeDurationLabel": {
+    "description": "Label in the time interval dialog; column is about 90px wide"
+  },
+  "timeDurationHoursMinutes": "{hours, plural, other{{hours} hours}} {minutes, plural, other{{minutes} minutes}}",
+  "@timeDurationHoursMinutes": {
+    "description": "Length of a time interval of at least one hour and one minute",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDurationHours": "{hours, plural, other{{hours} hours}}",
+  "@timeDurationHours": {
+    "description": "Length of a time interval in whole hours",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDurationMinutes": "{minutes, plural, other{{minutes} minutes}}",
+  "@timeDurationMinutes": {
+    "description": "Length of a time interval under an hour, or in whole minutes",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeShortHoursMinutes": "{hours}h {minutes}m",
+  "@timeShortHoursMinutes": {
+    "description": "Compact duration with abbreviated units, as in a list of time intervals or a report total (\"2h 30m\"). Use the usual short unit forms of the language.",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeShortHours": "{hours}h",
+  "@timeShortHours": {
+    "description": "Compact duration with abbreviated units, as in a list of time intervals or a report total (\"2h 30m\"). Use the usual short unit forms of the language.",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeShortMinutes": "{minutes}m",
+  "@timeShortMinutes": {
+    "description": "Compact duration with abbreviated units, as in a list of time intervals or a report total (\"2h 30m\"). Use the usual short unit forms of the language.",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeShortSeconds": "{seconds}s",
+  "@timeShortSeconds": {
+    "description": "Compact duration with abbreviated units, as in a list of time intervals or a report total (\"2h 30m\"). Use the usual short unit forms of the language.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "timeAddEllipsis": "Add...",
+  "@timeAddEllipsis": {
+    "description": "Button in the Timeline dialog that opens the Add Time Interval dialog"
+  },
+  "timeNoRecords": "No time records",
+  "@timeNoRecords": {
+    "description": "Empty state of the Timeline dialog"
+  },
+  "timeDayWithWeekday": "{day} ({weekday})",
+  "@timeDayWithWeekday": {
+    "description": "Day node in the timeline tree, e.g. '23 (Mon)'; weekday is the abbreviated weekday name",
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "timeNow": "now",
+  "@timeNow": {
+    "description": "End of a time interval that is still running, as in '14:05 - now'"
+  },
+  "timeRemoveIntervalTitle": "Remove interval?",
+  "@timeRemoveIntervalTitle": {
+    "description": "Confirmation dialog title"
+  },
+  "timeRemoveIntervalConfirm": "Are you sure you want to remove this time interval?",
+  "@timeRemoveIntervalConfirm": {
+    "description": "Confirmation dialog body"
+  },
+  "timeNotTracking": "Not tracking",
+  "@timeNotTracking": {
+    "description": "Mini tracker window, when no task is tracked and none is selected"
+  },
+  "timeStopTracking": "Stop tracking",
+  "@timeStopTracking": {
+    "description": "Accessibility label of the mini tracker's stop button"
+  },
+  "timeStartTracking": "Start tracking",
+  "@timeStartTracking": {
+    "description": "Accessibility label of the mini tracker's start button"
+  },
+  "timeBackToFullWindow": "Back to the full window",
+  "@timeBackToFullWindow": {
+    "description": "Accessibility label of the mini tracker's restore button"
+  },
+  "timeReportTitle": "Time Report",
+  "@timeReportTitle": {
+    "description": "Title of the Time Report dialog"
+  },
+  "timeReportSaveTitle": "Save Time Report",
+  "@timeReportSaveTitle": {
+    "description": "Title of the save-file dialog"
+  },
+  "timeReportGenerateFailed": "Failed to generate report: {error}",
+  "@timeReportGenerateFailed": {
+    "description": "Snack bar; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReportCopied": "Report copied to clipboard",
+  "@timeReportCopied": {
+    "description": "Snack bar"
+  },
+  "timeReportSavedTo": "Saved to {path}",
+  "@timeReportSavedTo": {
+    "description": "Snack bar; path is a file path",
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReportSaveFailed": "Failed to save: {error}",
+  "@timeReportSaveFailed": {
+    "description": "Snack bar; error is a technical message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReportTasks": "Tasks",
+  "@timeReportTasks": {
+    "description": "Section title in the Time Report dialog"
+  },
+  "timeReportNoTasks": "No tasks available.",
+  "@timeReportNoTasks": {
+    "description": "Time Report dialog, empty task list"
+  },
+  "timeReportClearSelection": "Clear selection",
+  "@timeReportClearSelection": {
+    "description": "Button"
+  },
+  "timeReportSelectedCount": "{count, plural, other{{count} selected}}",
+  "@timeReportSelectedCount": {
+    "description": "Number of tasks ticked in the Time Report dialog",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeReportIncludeDescendants": "Include descendants",
+  "@timeReportIncludeDescendants": {
+    "description": "Checkbox title"
+  },
+  "timeReportIncludeDescendantsHint": "Also report time from child tasks of each selected node.",
+  "@timeReportIncludeDescendantsHint": {
+    "description": "Checkbox subtitle under 'Include descendants'"
+  },
+  "timeReportDateRange": "Date range",
+  "@timeReportDateRange": {
+    "description": "Section title"
+  },
+  "timeReportFrom": "From: {date}",
+  "@timeReportFrom": {
+    "description": "Button showing the start of the report period; date is like 2026-11-23",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReportTo": "To: {date}",
+  "@timeReportTo": {
+    "description": "Button showing the end of the report period; date is like 2026-11-23",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReportFormat": "Format",
+  "@timeReportFormat": {
+    "description": "Section title: output format of the report"
+  },
+  "timeReportFormatTree": "Tree (totals only)",
+  "@timeReportFormatTree": {
+    "description": "Report format option"
+  },
+  "timeReportFormatTreeWithDays": "Tree with per-day breakdown",
+  "@timeReportFormatTreeWithDays": {
+    "description": "Report format option"
+  },
+  "timeReportFormatFlat": "Flat interval list",
+  "@timeReportFormatFlat": {
+    "description": "Report format option"
+  },
+  "timeReportShowEmpty": "Show empty tasks",
+  "@timeReportShowEmpty": {
+    "description": "Checkbox: include tasks with no recorded time"
+  },
+  "timeReportUntitled": "(untitled)",
+  "@timeReportUntitled": {
+    "description": "Task list entry for a task with an empty title"
+  },
+  "timeReportSelectTasks": "Select one or more tasks to generate a report.",
+  "@timeReportSelectTasks": {
+    "description": "Placeholder where the report preview goes"
+  },
+  "timeReportNoRecordsInPeriod": "No time records in the selected period.",
+  "@timeReportNoRecordsInPeriod": {
+    "description": "Placeholder where the report preview goes"
+  },
+  "timeReportTextPeriod": "Period:",
+  "@timeReportTextPeriod": {
+    "description": "Label in the generated time report text (Markdown, shown bold), followed by the date range. Include the colon as your language writes it."
+  },
+  "timeReportTextTotal": "Total:",
+  "@timeReportTextTotal": {
+    "description": "Label in the generated time report text, followed by the total duration."
+  },
+  "timeReportTextGenerated": "Generated:",
+  "@timeReportTextGenerated": {
+    "description": "Label in the generated time report text, followed by the date and time the report was made."
+  },
+  "timeReportTextClipped": "Records that straddle the period boundaries are clipped to the range.",
+  "@timeReportTextClipped": {
+    "description": "Note in the generated time report text: time records that start before or end after the chosen period count only the part inside it."
+  },
+  "timeReportTextSelf": "self: {duration}",
+  "@timeReportTextSelf": {
+    "description": "In the tree report, after a task's total (which includes its subtasks): the time recorded on the task itself.",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "description": "e.g. \"2h 30m\""
+      }
+    }
+  },
+  "timeReportTextOngoing": "ongoing",
+  "@timeReportTextOngoing": {
+    "description": "In the flat report, after an interval whose clock is still running."
+  },
+  "timeReportTotal": "Total: {duration}   •   {count, plural, =1{1 record} other{{count} records}}",
+  "@timeReportTotal": {
+    "description": "Footer of the Time Report dialog; duration is like '2h 30m'. Keep the spacing around the bullet",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeReportRegenerate": "Regenerate",
+  "@timeReportRegenerate": {
+    "description": "Button"
+  },
+  "timeReportShare": "Share…",
+  "@timeReportShare": {
+    "description": "Button (phones): share the report"
+  },
+  "timeReportSave": "Save…",
+  "@timeReportSave": {
+    "description": "Button (desktop): save the report to a file"
+  },
+  "timeReportPresetToday": "Today",
+  "@timeReportPresetToday": {
+    "description": "Date range preset chip"
+  },
+  "timeReportPresetThisWeek": "This week",
+  "@timeReportPresetThisWeek": {
+    "description": "Date range preset chip"
+  },
+  "timeReportPresetThisMonth": "This month",
+  "@timeReportPresetThisMonth": {
+    "description": "Date range preset chip"
+  },
+  "timeReportPresetLastMonth": "Last month",
+  "@timeReportPresetLastMonth": {
+    "description": "Date range preset chip"
+  },
+  "timeReportPresetThisYear": "This year",
+  "@timeReportPresetThisYear": {
+    "description": "Date range preset chip"
+  },
+  "prefsTitle": "Preferences",
+  "@prefsTitle": {
+    "description": "Title of the Preferences dialog"
+  },
+  "prefsTabAppearance": "Appearance",
+  "@prefsTabAppearance": {
+    "description": "Preferences tab"
+  },
+  "prefsTabBehavior": "Behavior",
+  "@prefsTabBehavior": {
+    "description": "Preferences tab"
+  },
+  "prefsTabVoiceMemos": "Voice memos",
+  "@prefsTabVoiceMemos": {
+    "description": "Preferences tab"
+  },
+  "prefsTabSync": "Sync",
+  "@prefsTabSync": {
+    "description": "Preferences tab"
+  },
+  "prefsTabMcp": "MCP",
+  "@prefsTabMcp": {
+    "description": "Preferences tab (MCP = Model Context Protocol, a product name)"
+  },
+  "prefsFieldLabel": "{label}:",
+  "@prefsFieldLabel": {
+    "description": "A field caption in a property-sheet form, followed by its control",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsGroupLanguage": "Language",
+  "@prefsGroupLanguage": {
+    "description": "Preferences > Appearance: group box title"
+  },
+  "prefsInterfaceLanguage": "Interface",
+  "@prefsInterfaceLanguage": {
+    "description": "Preferences > Appearance > Language: caption of the interface language dropdown (short)"
+  },
+  "prefsLanguageHint": "Translations other than English are machine-made; corrections are welcome.",
+  "@prefsLanguageHint": {
+    "description": "Hint under the interface language dropdown"
+  },
+  "prefsGroupTheme": "Theme",
+  "@prefsGroupTheme": {
+    "description": "Preferences > Appearance: group box title"
+  },
+  "prefsThemeMode": "Mode",
+  "@prefsThemeMode": {
+    "description": "Preferences > Appearance > Theme: light/dark mode caption"
+  },
+  "prefsThemeSystem": "System",
+  "@prefsThemeSystem": {
+    "description": "Theme mode: follow the operating system"
+  },
+  "prefsThemeLight": "Light",
+  "@prefsThemeLight": {
+    "description": "Theme mode"
+  },
+  "prefsThemeDark": "Dark",
+  "@prefsThemeDark": {
+    "description": "Theme mode"
+  },
+  "prefsGroupStyle": "Style",
+  "@prefsGroupStyle": {
+    "description": "Preferences > Appearance: group box title (look of the app)"
+  },
+  "prefsGroupColour": "Colour",
+  "@prefsGroupColour": {
+    "description": "Preferences > Appearance: group box title on phones, where only the accent colour is offered"
+  },
+  "prefsLook": "Look",
+  "@prefsLook": {
+    "description": "Preferences > Appearance > Style: caption of the Modern/Classic choice"
+  },
+  "prefsLookHint": "Classic: square corners, flat bordered buttons, no ripples, scrollbars always shown, and a title bar in the accent colour with the menu beneath it.",
+  "prefsUiStyleModern": "Modern",
+  "@prefsUiStyleModern": {
+    "description": "UI style name"
+  },
+  "prefsUiStyleClassic": "Classic",
+  "@prefsUiStyleClassic": {
+    "description": "UI style name"
+  },
+  "prefsAccentColour": "Accent colour",
+  "@prefsAccentColour": {
+    "description": "Preferences > Appearance: caption of the accent colour swatches"
+  },
+  "prefsAccentTeal": "Teal",
+  "@prefsAccentTeal": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentBlue": "Blue",
+  "@prefsAccentBlue": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentIndigo": "Indigo",
+  "@prefsAccentIndigo": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentPurple": "Purple",
+  "@prefsAccentPurple": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentPink": "Pink",
+  "@prefsAccentPink": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentRed": "Red",
+  "@prefsAccentRed": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentOrange": "Orange",
+  "@prefsAccentOrange": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentAmber": "Amber",
+  "@prefsAccentAmber": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentGreen": "Green",
+  "@prefsAccentGreen": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsAccentGraphite": "Graphite",
+  "@prefsAccentGraphite": {
+    "description": "Accent colour name (tooltip of a colour swatch)"
+  },
+  "prefsGroupWindow": "Window",
+  "@prefsGroupWindow": {
+    "description": "Preferences > Appearance: group box title"
+  },
+  "prefsSystemTitleBar": "Use the system title bar",
+  "@prefsSystemTitleBar": {
+    "description": "Checkbox"
+  },
+  "prefsSystemTitleBarHint": "The window frame, title and buttons as the desktop draws them, with the menu bar beneath.",
+  "prefsGroupEditorFont": "Editor font (the text of a note)",
+  "@prefsGroupEditorFont": {
+    "description": "Preferences > Appearance: group box title"
+  },
+  "prefsGroupTreeFont": "Tree font (the outline)",
+  "@prefsGroupTreeFont": {
+    "description": "Preferences > Appearance: group box title"
+  },
+  "prefsGroupInterfaceFont": "Interface font (menus & dialogs)",
+  "@prefsGroupInterfaceFont": {
+    "description": "Preferences > Appearance: group box title"
+  },
+  "prefsFontFamily": "Family",
+  "@prefsFontFamily": {
+    "description": "Font family caption"
+  },
+  "prefsFontCustom": "Custom…",
+  "@prefsFontCustom": {
+    "description": "Font family dropdown entry that lets the user type a family name"
+  },
+  "prefsCustomName": "Custom name",
+  "@prefsCustomName": {
+    "description": "Caption of the field where a custom font family name is typed"
+  },
+  "prefsCustomFamilyExample": "e.g. {font}",
+  "@prefsCustomFamilyExample": {
+    "description": "Placeholder text of the custom font family field",
+    "placeholders": {
+      "font": {
+        "type": "String",
+        "example": "Consolas"
+      }
+    }
+  },
+  "prefsFontSize": "Size",
+  "@prefsFontSize": {
+    "description": "Font size caption"
+  },
+  "prefsUnitPt": "pt",
+  "@prefsUnitPt": {
+    "description": "Unit after a font size (points); very short"
+  },
+  "prefsFontStyle": "Style",
+  "@prefsFontStyle": {
+    "description": "Font style caption (bold/italic checkboxes follow)"
+  },
+  "prefsBold": "Bold",
+  "@prefsBold": {
+    "description": "Font style checkbox"
+  },
+  "prefsItalic": "Italic",
+  "@prefsItalic": {
+    "description": "Font style checkbox"
+  },
+  "prefsPreview": "Preview",
+  "@prefsPreview": {
+    "description": "Caption of the font preview box"
+  },
+  "prefsPreviewText": "The quick brown fox jumps over the lazy dog.",
+  "@prefsPreviewText": {
+    "description": "Sample text in the font preview; use a pangram or a typical sentence of the language"
+  },
+  "prefsScale": "Scale",
+  "@prefsScale": {
+    "description": "Interface font size scale caption (value in percent)"
+  },
+  "prefsFontSansSerif": "Sans Serif",
+  "@prefsFontSansSerif": {
+    "description": "Generic font family name"
+  },
+  "prefsFontSerif": "Serif",
+  "@prefsFontSerif": {
+    "description": "Generic font family name"
+  },
+  "prefsFontMonospace": "Monospace",
+  "@prefsFontMonospace": {
+    "description": "Generic font family name"
+  },
+  "prefsGroupTimeTracking": "Time tracking",
+  "@prefsGroupTimeTracking": {
+    "description": "Preferences > Behavior: group box title"
+  },
+  "prefsEnableTimeTracking": "Enable time tracking",
+  "@prefsEnableTimeTracking": {
+    "description": "Checkbox"
+  },
+  "prefsEnableTimeTrackingHint": "Start/stop tracking, timelines and time reports. Turning it off hides them; recorded time is kept",
+  "prefsShowSeconds": "Show seconds",
+  "@prefsShowSeconds": {
+    "description": "Checkbox"
+  },
+  "prefsShowSecondsHint": "Display seconds in time durations",
+  "prefsMiniTracker": "Show mini window while tracking",
+  "@prefsMiniTracker": {
+    "description": "Checkbox"
+  },
+  "prefsMiniTrackerHint": "While a clock runs, minimizing the window shrinks it to a small always-on-top clock instead",
+  "prefsGroupSaving": "Saving",
+  "@prefsGroupSaving": {
+    "description": "Preferences > Behavior: group box title"
+  },
+  "prefsAutoSaveEvery": "Auto-save every",
+  "@prefsAutoSaveEvery": {
+    "description": "Caption before a number of seconds"
+  },
+  "prefsUnitSec": "sec",
+  "@prefsUnitSec": {
+    "description": "Unit after a number of seconds; very short"
+  },
+  "prefsGroupEditor": "Editor",
+  "@prefsGroupEditor": {
+    "description": "Preferences > Behavior: group box title"
+  },
+  "prefsTabWidth": "Tab width",
+  "@prefsTabWidth": {
+    "description": "Caption: width of a tab character"
+  },
+  "prefsUnitSpaces": "spaces",
+  "@prefsUnitSpaces": {
+    "description": "Unit after the tab width number; short"
+  },
+  "prefsTabAsSpaces": "Insert tabs as spaces",
+  "@prefsTabAsSpaces": {
+    "description": "Checkbox"
+  },
+  "prefsTabAsSpacesHint": "Pressing Tab inserts spaces instead of a tab",
+  "prefsWordWrap": "Word wrap",
+  "@prefsWordWrap": {
+    "description": "Checkbox"
+  },
+  "prefsWordWrapHint": "Off: long lines run on and the note scrolls sideways (Shift + wheel). Also in the editor's context menu and the status bar",
+  "prefsMonospaceOnly": "Monospace fonts only",
+  "@prefsMonospaceOnly": {
+    "description": "Checkbox"
+  },
+  "prefsMonospaceOnlyHint": "The toolbar's Font menu offers only the fixed-width family, so text meant to line up stays lined up",
+  "prefsFloatingButtons": "Floating buttons",
+  "@prefsFloatingButtons": {
+    "description": "Checkbox"
+  },
+  "prefsFloatingButtonsHint": "Attach file and Record voice memo over the note; the toolbar keeps its own buttons either way",
+  "prefsPaste": "Paste",
+  "@prefsPaste": {
+    "description": "Caption of the paste formatting dropdown"
+  },
+  "prefsPasteHint": "Ctrl+Shift+V always pastes plain text",
+  "@prefsPasteHint": {
+    "description": "Keep the shortcut as is"
+  },
+  "prefsPasteKeep": "Keep formatting",
+  "@prefsPasteKeep": {
+    "description": "Paste formatting option"
+  },
+  "prefsPasteStrip": "Remove colours and fonts",
+  "@prefsPasteStrip": {
+    "description": "Paste formatting option"
+  },
+  "prefsPastePlain": "Plain text only",
+  "@prefsPastePlain": {
+    "description": "Paste formatting option"
+  },
+  "prefsTableColumns": "Table columns",
+  "@prefsTableColumns": {
+    "description": "Caption of the table separator dropdown"
+  },
+  "prefsTableColumnsHint": "What Format as table (editor context menu) splits columns on. Not inside URLs or quoted text",
+  "@prefsTableColumnsHint": {
+    "description": "\"Format as table\" is the name of an editor context menu command"
+  },
+  "prefsSeparatorColon": "Colon  ( : )",
+  "@prefsSeparatorColon": {
+    "description": "Table separator option; keep the character in brackets"
+  },
+  "prefsSeparatorEquals": "Equals sign  ( = )",
+  "@prefsSeparatorEquals": {
+    "description": "Table separator option; keep the character in brackets"
+  },
+  "prefsSeparatorPipe": "Vertical bar  ( | )",
+  "@prefsSeparatorPipe": {
+    "description": "Table separator option; keep the character in brackets"
+  },
+  "prefsSeparatorSemicolon": "Semicolon  ( ; )",
+  "@prefsSeparatorSemicolon": {
+    "description": "Table separator option; keep the character in brackets"
+  },
+  "prefsSeparatorComma": "Comma  ( , )",
+  "@prefsSeparatorComma": {
+    "description": "Table separator option; keep the character in brackets"
+  },
+  "prefsSeparatorTab": "Tab",
+  "@prefsSeparatorTab": {
+    "description": "The Tab character as a table separator; also shown in the editor menu entry \"Format as table (Tab)\""
+  },
+  "prefsGroupToolbarButtons": "Toolbar buttons",
+  "@prefsGroupToolbarButtons": {
+    "description": "Preferences > Behavior: group box title"
+  },
+  "prefsToolbarButtonsHint": "Untick a button to take it off the editor toolbar.",
+  "prefsToolbarUndoRedo": "Undo / Redo",
+  "@prefsToolbarUndoRedo": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarFont": "Font",
+  "@prefsToolbarFont": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarSize": "Size",
+  "@prefsToolbarSize": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarBold": "Bold",
+  "@prefsToolbarBold": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarItalic": "Italic",
+  "@prefsToolbarItalic": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarUnderline": "Underline",
+  "@prefsToolbarUnderline": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarStrikeThrough": "Strikethrough",
+  "@prefsToolbarStrikeThrough": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarInlineCode": "Code",
+  "@prefsToolbarInlineCode": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarTextColor": "Text colour",
+  "@prefsToolbarTextColor": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarHighlightColor": "Highlight colour",
+  "@prefsToolbarHighlightColor": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarClearFormat": "Clear formatting",
+  "@prefsToolbarClearFormat": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarHeadings": "Headings",
+  "@prefsToolbarHeadings": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarNumberedList": "Numbered list",
+  "@prefsToolbarNumberedList": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarBulletedList": "Bulleted list",
+  "@prefsToolbarBulletedList": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarChecklist": "Checklist",
+  "@prefsToolbarChecklist": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarCodeBlock": "Code block",
+  "@prefsToolbarCodeBlock": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarQuote": "Quote",
+  "@prefsToolbarQuote": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarIndent": "Indent",
+  "@prefsToolbarIndent": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarLink": "Link",
+  "@prefsToolbarLink": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarInsertImage": "Insert image",
+  "@prefsToolbarInsertImage": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsToolbarVoiceMemo": "Voice memo",
+  "@prefsToolbarVoiceMemo": {
+    "description": "Name of an editor toolbar button, in the Preferences list of toolbar buttons (checkbox, short)"
+  },
+  "prefsGroupSecurity": "Security",
+  "@prefsGroupSecurity": {
+    "description": "Preferences > Behavior: group box title"
+  },
+  "prefsRememberPassword": "Remember password",
+  "@prefsRememberPassword": {
+    "description": "Checkbox"
+  },
+  "prefsRememberPasswordHint": "Store database password in system keychain",
+  "prefsBiometricUnlock": "Biometric unlock",
+  "@prefsBiometricUnlock": {
+    "description": "Checkbox (Android)"
+  },
+  "prefsBiometricUnavailableHint": "Unavailable — set up a fingerprint or screen lock in Android settings first",
+  "prefsBiometricHint": "Confirm fingerprint, face, or screen lock before the remembered password is used",
+  "prefsBlockScreenshots": "Block screenshots",
+  "@prefsBlockScreenshots": {
+    "description": "Checkbox (Android)"
+  },
+  "prefsBlockScreenshotsHint": "Hide app content in screenshots, screen recording, and the recent-apps switcher",
+  "prefsGroupStartup": "Startup",
+  "@prefsGroupStartup": {
+    "description": "Preferences > Behavior: group box title"
+  },
+  "prefsSingleInstance": "Single instance",
+  "@prefsSingleInstance": {
+    "description": "Checkbox"
+  },
+  "prefsSingleInstanceHint": "Allow only one running window; a new launch focuses the existing one. Takes effect on next launch.",
+  "prefsVoiceGroupDevices": "Devices",
+  "@prefsVoiceGroupDevices": {
+    "description": "Preferences > Voice memos: group box title (audio devices)"
+  },
+  "prefsVoiceMicrophone": "Microphone",
+  "@prefsVoiceMicrophone": {
+    "description": "Caption of the microphone dropdown"
+  },
+  "prefsVoiceMicrophoneHint": "Used for voice memos and for the check below.",
+  "prefsVoiceSpeaker": "Speaker",
+  "@prefsVoiceSpeaker": {
+    "description": "Caption of the speaker (audio output) dropdown"
+  },
+  "prefsVoiceSpeakerHint": "Applies to voice memos. Other audio attachments play through the system default.",
+  "prefsVoiceDevicesLooking": "Looking…",
+  "@prefsVoiceDevicesLooking": {
+    "description": "Shown while audio devices are being listed"
+  },
+  "prefsVoiceDevicesError": "No audio devices could be listed: {error}",
+  "@prefsVoiceDevicesError": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "Technical error message"
+      }
+    }
+  },
+  "prefsVoiceDevicesUnavailable": "Unavailable",
+  "@prefsVoiceDevicesUnavailable": {
+    "description": "Shown instead of a device dropdown when no devices could be listed"
+  },
+  "prefsVoiceDeviceDefault": "{name} (default)",
+  "@prefsVoiceDeviceDefault": {
+    "description": "An audio device the system uses by default",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Device name"
+      }
+    }
+  },
+  "prefsVoiceDeviceMissing": "{name} (not connected)",
+  "@prefsVoiceDeviceMissing": {
+    "description": "A selected audio device that is not present",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "Device name"
+      }
+    }
+  },
+  "prefsVoiceGroupTranscription": "Transcription",
+  "@prefsVoiceGroupTranscription": {
+    "description": "Preferences > Voice memos: group box title"
+  },
+  "prefsVoiceModel": "Model",
+  "@prefsVoiceModel": {
+    "description": "Caption of the speech recognition model dropdown"
+  },
+  "prefsVoiceModelHintNone": "Memos are recorded and stored as audio only.",
+  "prefsVoiceModelHintLocal": "Runs on this device. Nothing is sent anywhere.",
+  "prefsVoiceModelOff": "Off",
+  "@prefsVoiceModelOff": {
+    "description": "Model dropdown entry: no transcription"
+  },
+  "prefsVoiceModelItem": "{model} · {size}",
+  "@prefsVoiceModelItem": {
+    "description": "Model dropdown entry",
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Tiny"
+      },
+      "size": {
+        "type": "String",
+        "example": "74 MB"
+      }
+    }
+  },
+  "prefsVoiceModelItemRecommended": "{model} · {size} · recommended",
+  "@prefsVoiceModelItemRecommended": {
+    "description": "Model dropdown entry for the recommended model",
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Base"
+      },
+      "size": {
+        "type": "String",
+        "example": "141 MB"
+      }
+    }
+  },
+  "prefsMegabytes": "{count} MB",
+  "@prefsMegabytes": {
+    "description": "A size in megabytes",
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "description": "Number, already formatted"
+      }
+    }
+  },
+  "prefsVoiceTranscribeAfter": "Transcribe after recording",
+  "@prefsVoiceTranscribeAfter": {
+    "description": "Checkbox"
+  },
+  "prefsVoiceTranscribeAfterHint": "A memo is stored first and transcribed from the stored audio. Off stores it untranscribed; \"Transcribe\" in the attachment menu still works later.",
+  "@prefsVoiceTranscribeAfterHint": {
+    "description": "\"Transcribe\" is the name of an attachment menu item"
+  },
+  "prefsVoiceLanguage": "Language",
+  "@prefsVoiceLanguage": {
+    "description": "Caption of the transcription language dropdown"
+  },
+  "prefsVoiceLanguageAuto": "Detect automatically",
+  "@prefsVoiceLanguageAuto": {
+    "description": "Transcription language option: let the recogniser detect it"
+  },
+  "prefsVoiceFooter": "Recording works without a model — memos are always stored as audio, and play back like any other attachment. A model only adds the text.",
+  "prefsVoiceGroupCheck": "Check",
+  "@prefsVoiceGroupCheck": {
+    "description": "Preferences > Voice memos: group box title of the audio self-test"
+  },
+  "prefsVoiceCheckIntro": "Records a few seconds, plays them back and transcribes them, using the devices and model above. Nothing is saved.",
+  "prefsVoiceStop": "Stop",
+  "@prefsVoiceStop": {
+    "description": "Button: stop recording"
+  },
+  "prefsVoiceTestAgain": "Test again",
+  "@prefsVoiceTestAgain": {
+    "description": "Button"
+  },
+  "prefsVoiceCheckRecording": "Recording — say a sentence, then press Stop.",
+  "@prefsVoiceCheckRecording": {
+    "description": "\"Stop\" is the button label"
+  },
+  "prefsVoiceCheckPlaying": "Playing it back…",
+  "prefsVoiceCheckTranscribing": "Transcribing…",
+  "prefsVoiceCheckTranscribingPercent": "Transcribing… {percent}%",
+  "@prefsVoiceCheckTranscribingPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "prefsVoiceCheckDone": "Recorded {duration}.",
+  "@prefsVoiceCheckDone": {
+    "description": "After the self-test",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "0:05"
+      }
+    }
+  },
+  "prefsVoiceCheckFailed": "The check did not finish.",
+  "prefsVoiceDownloading": "Downloading…",
+  "prefsVoiceDownloadProgress": "{percent}% of {size}",
+  "@prefsVoiceDownloadProgress": {
+    "description": "Model download progress",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String",
+        "example": "141 MB"
+      }
+    }
+  },
+  "prefsVoiceModelReady": "{model} is downloaded and ready.",
+  "@prefsVoiceModelReady": {
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Base"
+      }
+    }
+  },
+  "prefsVoiceModelNotDownloaded": "Not downloaded — {size} from HuggingFace.",
+  "@prefsVoiceModelNotDownloaded": {
+    "placeholders": {
+      "size": {
+        "type": "String",
+        "example": "141 MB"
+      }
+    }
+  },
+  "prefsCheckBusy": "A voice memo is being recorded. Finish it first.",
+  "prefsCheckPermissionRefused": "The microphone permission was refused.",
+  "prefsCheckMicWouldNotOpen": "The microphone would not open: {error}",
+  "@prefsCheckMicWouldNotOpen": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsCheckRecordingFailed": "Recording failed: {error}",
+  "@prefsCheckRecordingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsCheckNotFinished": "The recording could not be finished: {error}",
+  "@prefsCheckNotFinished": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsCheckNothingRecorded": "Nothing was recorded. Hold the test a moment longer, or pick another microphone.",
+  "prefsCheckMalformed": "The recording came back malformed and would not play.",
+  "prefsCheckPlaybackFailed": "Playback failed: {error}",
+  "@prefsCheckPlaybackFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsCheckNoModel": "Recording and playback worked. No model is selected, so there is nothing to transcribe.",
+  "prefsCheckModelMissing": "Recording and playback worked. {model} has not been downloaded yet, so nothing was transcribed.",
+  "@prefsCheckModelMissing": {
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Base"
+      }
+    }
+  },
+  "prefsCheckTranscriptionFailed": "Transcription failed: {error}",
+  "@prefsCheckTranscriptionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsCheckSilence": "The microphone produced silence — the level meter never moved. Check that the right device is selected and that the app may use it.",
+  "prefsCheckNoSpeech": "Recording and playback worked, but whisper found no speech. Try speaking closer to the microphone, or another language.",
+  "@prefsCheckNoSpeech": {
+    "description": "\"whisper\" is the speech recogniser's name"
+  },
+  "prefsCheckQuiet": "The level meter never moved, so the input is very quiet.",
+  "prefsDownloadCancelled": "Download cancelled.",
+  "prefsDownloadFailed": "Download failed: {error}",
+  "@prefsDownloadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "prefsUntitled": "(untitled)",
+  "@prefsUntitled": {
+    "description": "Stands for a task with an empty title in a list of tasks"
+  },
+  "prefsMcpTokenSessionOnly": "Saved for this session only: the system keychain refused it. If your keyring is locked, unlock it and press Regenerate.",
+  "@prefsMcpTokenSessionOnly": {
+    "description": "\"Regenerate\" is a button label"
+  },
+  "prefsMcpRegenerateTitle": "Regenerate token?",
+  "@prefsMcpRegenerateTitle": {
+    "description": "Confirmation dialog title"
+  },
+  "prefsMcpRegenerateBody": "Agents configured with the current token will stop working until you paste the new one into their settings.",
+  "prefsMcpRegenerate": "Regenerate",
+  "@prefsMcpRegenerate": {
+    "description": "Button: create a new access token"
+  },
+  "prefsMcpGroupAccess": "Agent access",
+  "@prefsMcpGroupAccess": {
+    "description": "Preferences > MCP: group box title (AI agents)"
+  },
+  "prefsMcpEnable": "Enable MCP server",
+  "@prefsMcpEnable": {
+    "description": "Checkbox"
+  },
+  "prefsMcpEnableHint": "Let local AI coding agents read this outline over 127.0.0.1. Off by default.",
+  "prefsMcpReadOnly": "Read-only",
+  "@prefsMcpReadOnly": {
+    "description": "Checkbox"
+  },
+  "prefsMcpReadOnlyHint": "Agents can search and read tasks but cannot create, change, move or delete them.",
+  "prefsMcpGroupEndpoint": "Endpoint",
+  "@prefsMcpGroupEndpoint": {
+    "description": "Preferences > MCP: group box title (network address of the server)"
+  },
+  "prefsMcpPort": "Port",
+  "@prefsMcpPort": {
+    "description": "Network port caption"
+  },
+  "prefsMcpUrl": "URL",
+  "@prefsMcpUrl": {
+    "description": "Caption"
+  },
+  "prefsMcpCopyUrl": "Copy URL",
+  "@prefsMcpCopyUrl": {
+    "description": "Tooltip"
+  },
+  "prefsMcpToken": "Token",
+  "@prefsMcpToken": {
+    "description": "Caption of the access token field"
+  },
+  "prefsMcpTokenHint": "Anyone who can run programs as you can use this token. Treat it like a password.",
+  "prefsMcpNoTokenYet": "No token yet — enable the server to create one",
+  "@prefsMcpNoTokenYet": {
+    "description": "Placeholder of the empty token field"
+  },
+  "prefsMcpShowToken": "Show token",
+  "@prefsMcpShowToken": {
+    "description": "Tooltip"
+  },
+  "prefsMcpHideToken": "Hide token",
+  "@prefsMcpHideToken": {
+    "description": "Tooltip"
+  },
+  "prefsMcpCopyToken": "Copy token",
+  "@prefsMcpCopyToken": {
+    "description": "Tooltip"
+  },
+  "prefsMcpCopied": "Copied.",
+  "@prefsMcpCopied": {
+    "description": "Shown briefly after something was copied to the clipboard"
+  },
+  "prefsMcpGroupExcluded": "Excluded branches",
+  "@prefsMcpGroupExcluded": {
+    "description": "Preferences > MCP: group box title, and title of the dialog choosing them (parts of the outline hidden from AI agents)"
+  },
+  "prefsMcpExcludedIntro": "Tasks hidden from the MCP server, together with everything under them.",
+  "prefsMcpLoading": "Loading…",
+  "prefsMcpOutlineReadError": "Could not read the outline.",
+  "prefsMcpChoose": "Choose…",
+  "@prefsMcpChoose": {
+    "description": "Button opening the excluded branches dialog"
+  },
+  "prefsMcpNothingExcluded": "Nothing is excluded — agents can see the whole outline.",
+  "prefsMcpMoreBranches": "{count, plural, other{and {count} more}}",
+  "@prefsMcpMoreBranches": {
+    "description": "After a short list of excluded branches: how many more there are",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prefsMcpListening": "Listening on {url}",
+  "@prefsMcpListening": {
+    "description": "MCP server status",
+    "placeholders": {
+      "url": {
+        "type": "String",
+        "example": "http://127.0.0.1:8737/mcp"
+      }
+    }
+  },
+  "prefsMcpPortUnavailable": "Port {port} is not available. Choose another port.",
+  "@prefsMcpPortUnavailable": {
+    "placeholders": {
+      "port": {
+        "type": "String",
+        "example": "8737"
+      }
+    }
+  },
+  "prefsMcpNoAccessToken": "No access token. Press Regenerate to create one.",
+  "@prefsMcpNoAccessToken": {
+    "description": "\"Regenerate\" is a button label"
+  },
+  "prefsMcpWaitingDatabase": "Waiting for a database to be opened.",
+  "@prefsMcpWaitingDatabase": {
+    "description": "MCP server status"
+  },
+  "prefsMcpNotRunning": "Not running.",
+  "@prefsMcpNotRunning": {
+    "description": "MCP server status"
+  },
+  "prefsMcpLastRequest": "Last request {time}",
+  "@prefsMcpLastRequest": {
+    "description": "MCP server status; time of day",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "14:03:21"
+      }
+    }
+  },
+  "prefsMcpNoRequests": "No requests yet",
+  "@prefsMcpNoRequests": {
+    "description": "MCP server status"
+  },
+  "prefsMcpRejected": "{count, plural, other{{count} rejected (wrong or missing token)}}",
+  "@prefsMcpRejected": {
+    "description": "Number of refused requests",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prefsMcpEnableFirst": "<enable the server first>",
+  "@prefsMcpEnableFirst": {
+    "description": "Stands in for the token inside a configuration snippet when there is none yet; keep the angle brackets"
+  },
+  "prefsMcpGroupSetup": "Set up your agent",
+  "@prefsMcpGroupSetup": {
+    "description": "Preferences > MCP: group box title"
+  },
+  "prefsMcpClient": "Client",
+  "@prefsMcpClient": {
+    "description": "Caption of the AI agent (client program) dropdown"
+  },
+  "prefsMcpStdioBridge": "An agent that only speaks stdio can bridge with:",
+  "@prefsMcpStdioBridge": {
+    "description": "Followed by a shell command"
+  },
+  "prefsMcpTargetTerminal": "Run this in a terminal:",
+  "@prefsMcpTargetTerminal": {
+    "description": "Followed by a shell command"
+  },
+  "prefsMcpTargetFile": "Add to {file}:",
+  "@prefsMcpTargetFile": {
+    "description": "Followed by configuration file contents",
+    "placeholders": {
+      "file": {
+        "type": "String",
+        "example": "opencode.json"
+      }
+    }
+  },
+  "prefsMcpNoteClaudeCode": "Scoped to your user, so the outline is available in every project.",
+  "prefsMcpNoteCodex": "To keep the token out of the file, replace http_headers with bearer_token_env_var = \"NOO_MCP_TOKEN\" and set that variable in your shell.",
+  "@prefsMcpNoteCodex": {
+    "description": "Keep http_headers, bearer_token_env_var and \"NOO_MCP_TOKEN\" verbatim"
+  },
+  "prefsMcpNoteOpenCode": "oauth: false matters — without it OpenCode reads this server's 401 as an invitation to start an OAuth registration it cannot finish.",
+  "@prefsMcpNoteOpenCode": {
+    "description": "Keep \"oauth: false\" verbatim"
+  },
+  "prefsMcpExcludedDialogIntro": "A ticked task is hidden from the MCP server together with everything under it — agents cannot read it, change it, or delete anything that contains it.",
+  "prefsMcpNoDatabase": "No database is open.",
+  "prefsMcpNoTasks": "This outline has no tasks yet.",
+  "prefsMcpCollapse": "Collapse",
+  "@prefsMcpCollapse": {
+    "description": "Tooltip of a tree row button"
+  },
+  "prefsMcpExpand": "Expand",
+  "@prefsMcpExpand": {
+    "description": "Tooltip of a tree row button"
+  },
+  "prefsMcpHiddenWithParent": "hidden with parent",
+  "@prefsMcpHiddenWithParent": {
+    "description": "Beside a task that is hidden because an ancestor is; short"
+  },
+  "syncGroupSynchronization": "Synchronization",
+  "@syncGroupSynchronization": {
+    "description": "Group box title in Preferences → Sync"
+  },
+  "syncEnable": "Enable sync",
+  "syncEnableHint": "Keep this database in sync with a server",
+  "syncGroupIdentity": "Identity",
+  "@syncGroupIdentity": {
+    "description": "Group box title in Preferences → Sync: the user name and device name"
+  },
+  "syncNeedsUserName": "Enter a user name to start syncing. Nothing syncs without one — with or without a server.",
+  "syncUserName": "User name",
+  "syncUserNameHint": "The same on every device of yours. Together with the database password it derives the encryption keys, so devices only sync when both match.",
+  "syncDeviceName": "Device name",
+  "syncDeviceNameHint": "How this device introduces itself to nearby devices",
+  "syncGroupServer": "Sync server (optional)",
+  "syncServerIntro": "Leave empty to sync only with nearby devices on the same network. A server additionally lets devices sync when they are apart; it stores encrypted data it cannot read.",
+  "syncServerUrl": "Server URL",
+  "syncServerPassword": "Password",
+  "@syncServerPassword": {
+    "description": "Field label: the account password on the sync server (not the database password)"
+  },
+  "syncServerPasswordHint": "Your account password on the server. Not the database password, and never used as an encryption key.",
+  "syncTestConnection": "Test Connection",
+  "@syncTestConnection": {
+    "description": "Button label"
+  },
+  "syncRegister": "Register",
+  "@syncRegister": {
+    "description": "Button label: create an account on the sync server"
+  },
+  "syncGroupSchedule": "Schedule",
+  "syncScheduleNeedsServer": "Syncing on start and exit needs a server. Devices on the same network sync when you ask them to, from Tools → Sync P2P...",
+  "syncAutosyncOnStart": "Autosync on start",
+  "syncAutosyncOnStartHint": "Sync when the app opens the database",
+  "syncCheckOnStart": "Check for incoming changes on start",
+  "syncCheckOnStartHint": "Ask the server whether other devices have sent changes, without syncing, and show it on the sync icon. Not needed while Autosync on start is on",
+  "syncAskOnExit": "Ask to sync on exit",
+  "syncAskOnExitHint": "Prompt to sync pending changes before the app closes",
+  "syncGroupServerStorage": "Server storage",
+  "syncGroupPeerToPeer": "Peer-to-peer",
+  "syncPeerToPeerIntro": "Devices on the same network that share your user name and database password can sync directly — no server needed. Open Tools → Sync P2P... on each of them: they find each other and sync while that window is open, and are not discoverable otherwise.",
+  "syncStorageNoServer": "Nothing is stored on a server in this setup. Peer-to-peer sync keeps every packet on the devices themselves.",
+  "syncStorageIntro": "The server keeps every encrypted change ever made, so its size grows with edits rather than with the size of your outline.",
+  "syncStorageReading": "Reading…",
+  "syncStoragePressRefresh": "Press Refresh to read the current usage.",
+  "syncStorageEmpty": "Nothing stored on the server yet.",
+  "syncStorageTotal": "{count, plural, =1{{size} in 1 packet} other{{size} in {count} packets}}",
+  "@syncStorageTotal": {
+    "description": "Server storage total. size is a formatted byte size such as '2.4 MB'",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncStorageDeviceCounters": "Counters {first}–{last}",
+  "@syncStorageDeviceCounters": {
+    "description": "Tooltip on a device's row in Server storage: the range of packet counters stored for it",
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "last": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStorageDeviceCountersSnapshots": "{snapshots, plural, other{Counters {first}–{last}, {snapshots} snapshot(s)}}",
+  "@syncStorageDeviceCountersSnapshots": {
+    "description": "Tooltip on a device's row in Server storage: the range of packet counters and the number of full-state snapshots",
+    "placeholders": {
+      "snapshots": {
+        "type": "int"
+      },
+      "first": {
+        "type": "int"
+      },
+      "last": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStorageBlobs": "{count, plural, =1{Plus 1 attachment ({size}), stored once and shared by every packet that references them.} other{Plus {count} attachments ({size}), stored once and shared by every packet that references them.}}",
+  "@syncStorageBlobs": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncStorageLocal": "{count, plural, other{This device holds {count} of them locally ({size}).}}",
+  "@syncStorageLocal": {
+    "description": "Under the server storage total: how many of the server's packets this device also holds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactOnServer": "Compact data on server",
+  "@syncCompactOnServer": {
+    "description": "Button label and confirmation dialog title"
+  },
+  "syncResetIdentity": "Reset device identity",
+  "@syncResetIdentity": {
+    "description": "Button label and confirmation dialog title. Also named in sync error messages (syncForkDetected etc.), keep them consistent"
+  },
+  "syncNotConfiguredOnDevice": "Sync is not configured on this device.",
+  "syncStorageReadFailed": "Could not read server storage: {error}",
+  "@syncStorageReadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncResetConfirm": "This device will start syncing under a new identity, and its next sync will publish a full copy of the current database. Your other devices merge that normally — nothing is lost.\n\nDo this when syncing reports that this device’s history has diverged, which usually means this database was restored from a backup after it had already synced.\n\nThe old identity keeps appearing in the server’s storage list until you compact.",
+  "syncReset": "Reset",
+  "@syncReset": {
+    "description": "Confirm button of the Reset device identity dialog"
+  },
+  "syncResetFailed": "Could not reset the device identity: {error}",
+  "@syncResetFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactConfirm": "This device will sync, then upload one snapshot of the whole database. The server then deletes every stored change the snapshot already contains, and so does every device as it picks the snapshot up.\n\nYour notes, times and attachments are unaffected — what is discarded is the record of individual past edits below the snapshot.\n\nUpdate Noo on your other devices first: an older version cannot read a stream whose beginning has been removed.",
+  "syncCompact": "Compact",
+  "@syncCompact": {
+    "description": "Confirm button of the Compact data on server dialog"
+  },
+  "syncCompactFailed": "Compaction failed.",
+  "syncCompactNothing": "Nothing to compact yet.",
+  "syncCompactRelayFreed": "{count, plural, other{Freed {size} on the server ({count} packets)}}",
+  "@syncCompactRelayFreed": {
+    "description": "First part of the compaction summary, no final period (see syncCompactSummary)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactRelayUnsupported": "Snapshot uploaded, but this server does not support compaction yet, so it kept its copies",
+  "@syncCompactRelayUnsupported": {
+    "description": "First part of the compaction summary, no final period (see syncCompactSummary)"
+  },
+  "syncCompactRelayNothing": "Snapshot uploaded; the server had nothing left to drop",
+  "@syncCompactRelayNothing": {
+    "description": "First part of the compaction summary, no final period (see syncCompactSummary)"
+  },
+  "syncCompactLocalFreed": "{count, plural, other{This device freed {size} ({count} packets)}}",
+  "@syncCompactLocalFreed": {
+    "description": "Second part of the compaction summary, no final period (see syncCompactSummary)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactSummary": "{relay}. {local}. The snapshot itself is {size}.",
+  "@syncCompactSummary": {
+    "description": "Compaction result. relay is syncCompactRelayFreed/Unsupported/Nothing, local is syncCompactLocalFreed, size a byte size",
+    "placeholders": {
+      "relay": {
+        "type": "String"
+      },
+      "local": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactSummaryNoLocal": "{relay}. The snapshot itself is {size}.",
+  "@syncCompactSummaryNoLocal": {
+    "description": "Compaction result when this device freed nothing. relay is syncCompactRelayFreed/Unsupported/Nothing",
+    "placeholders": {
+      "relay": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncTestSuccess": "Success: Server is reachable",
+  "syncTestUnreachable": "Error: Server not reachable",
+  "syncErrorWith": "Error: {error}",
+  "@syncErrorWith": {
+    "description": "Result line under Test Connection / Register",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncRegisterNeedsCredentials": "Error: Username and password required",
+  "syncRegisterSuccess": "Success: Account \"{user}\" created. Settings saved.",
+  "@syncRegisterSuccess": {
+    "placeholders": {
+      "user": {
+        "type": "String"
+      }
+    }
+  },
+  "syncRegisterSuccessUnlimited": "Success: Account \"{user}\" created with unlimited server storage. Settings saved.",
+  "@syncRegisterSuccessUnlimited": {
+    "placeholders": {
+      "user": {
+        "type": "String"
+      }
+    }
+  },
+  "syncRegisterSuccessQuota": "Success: Account \"{user}\" created with {size} of server storage. Settings saved.",
+  "@syncRegisterSuccessQuota": {
+    "placeholders": {
+      "user": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncStagePreparing": "Preparing",
+  "@syncStagePreparing": {
+    "description": "Sync progress dialog: stage name in the label column"
+  },
+  "syncStageAuthenticating": "Validating credentials",
+  "@syncStageAuthenticating": {
+    "description": "Sync progress dialog: stage name in the label column, also shown as the stage's status"
+  },
+  "syncStagePushing": "Pushing changes",
+  "syncStageApplying": "Applying changes",
+  "syncStatePending": "Pending",
+  "@syncStatePending": {
+    "description": "Status word of a sync stage"
+  },
+  "syncStateActive": "Working…",
+  "syncStateDone": "Done",
+  "syncStateSkipped": "Skipped",
+  "syncStateFailed": "Failed",
+  "syncCancelling": "Cancelling…",
+  "@syncCancelling": {
+    "description": "Sync progress dialog title and its (disabled) Cancel button while the run winds down"
+  },
+  "syncSynchronizing": "Synchronizing…",
+  "syncCancelled": "Sync cancelled",
+  "syncFailed": "Sync failed",
+  "syncTitle": "Sync",
+  "@syncTitle": {
+    "description": "Title of the sync progress dialog before any sync has run"
+  },
+  "syncComplete": "Sync complete",
+  "syncNow": "Sync Now",
+  "@syncNow": {
+    "description": "Button label"
+  },
+  "syncShowFullLogTooltip": "Show full log",
+  "syncShowFullLog": "Show Full Log",
+  "@syncShowFullLog": {
+    "description": "Button label; also referred to by syncMoreSeeFullLog"
+  },
+  "syncMoreSeeFullLog": "see Show Full Log",
+  "@syncMoreSeeFullLog": {
+    "description": "Tail of a capped list: '…and 800 more — see Show Full Log'. Refers to the Show Full Log button"
+  },
+  "syncGroupProgress": "Progress",
+  "syncNoRunYet": "No sync has run yet. Use “Sync Now” to synchronize; the details of the last sync will appear here.",
+  "syncCancelledNote": "Stopped at your request. Everything synchronized up to that point is kept; the next sync continues from there.",
+  "syncGroupSummary": "Summary",
+  "syncChangesPushed": "Changes pushed",
+  "syncChangesApplied": "Changes applied",
+  "syncGroupApplied": "Applied — from other devices",
+  "syncGroupPushed": "Pushed — from this device",
+  "syncGroupLwwSkipped": "Not applied — this device already had a newer value",
+  "syncGroupUnreadable": "Could not be read",
+  "syncLwwTieNote": "Timestamps that match exactly are kept as they are on both devices, so the two stay different. Edit the item again on the device whose version you want to keep.",
+  "syncLwwOlderNote": "The incoming value was older than this device's, so it was not written. If it should have won, check that the clocks on both devices agree.",
+  "syncSkewSame": "same timestamp",
+  "syncSkewSeconds": "{seconds, plural, other{local {seconds} s ahead}}",
+  "@syncSkewSeconds": {
+    "description": "How far this device's timestamp is ahead of the incoming one",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "syncSkewMinutes": "local {minutes} min {seconds} s ahead",
+  "@syncSkewMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "syncSkewHours": "local {hours} h {minutes} min ahead",
+  "@syncSkewHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "syncSkewDays": "{days, plural, other{local {days} days ahead}}",
+  "@syncSkewDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "syncLwwSkipTimes": "incoming {incoming} · local {local} ({skew})",
+  "@syncLwwSkipTimes": {
+    "description": "incoming/local are timestamps, skew is syncSkew*",
+    "placeholders": {
+      "incoming": {
+        "type": "String"
+      },
+      "local": {
+        "type": "String"
+      },
+      "skew": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSkippedPacketLine": "{id}  ·  {stage} failed  ·  {detail}",
+  "@syncSkippedPacketLine": {
+    "description": "A packet that could not be read. stage is a technical step name (decrypt, decode…), detail the error",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "stage": {
+        "type": "String"
+      },
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSkippedDecryptNote": "These packets could not be decrypted, which means this database's password differs from the one on the device that wrote them. Sync does not retry them: make the passwords match, then re-save the affected items on the other device so they are sent again.",
+  "syncSkippedUnreadableNote": "These packets could not be read and sync has moved past them — their changes will not arrive on their own. Re-save the affected items on the other device to send them again.",
+  "syncP2pNotConfigured": "Sync is not configured. Set a user name in Preferences → Sync first.",
+  "syncP2pStartFailed": "Could not start peer-to-peer sync: {error}",
+  "@syncP2pStartFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncP2pStarting": "Starting...",
+  "syncP2pLooking": "Looking for devices on this network...",
+  "syncP2pIntro": "Open Sync P2P... on the other device too. Devices sync as soon as they find each other; they stop being visible when this window is closed.",
+  "syncP2pTitle": "Sync P2P",
+  "@syncP2pTitle": {
+    "description": "Dialog title; same name as the menu item Sync P2P..."
+  },
+  "syncP2pSyncAgain": "Sync Again",
+  "syncP2pFound": "Found — waiting to sync",
+  "syncP2pSyncing": "Syncing...",
+  "syncP2pUpToDate": "Synced — already up to date",
+  "syncP2pReceived": "{count, plural, =1{Synced — 1 change received} other{Synced — {count} changes received}}",
+  "@syncP2pReceived": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncP2pFailed": "Failed — {error}",
+  "@syncP2pFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncP2pUnknownError": "unknown error",
+  "syncP2pReceivedFrom": "Received from {device} ({count})",
+  "@syncP2pReceivedFrom": {
+    "description": "Expandable list header; count is the number of changes",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncP2pSentTo": "Sent to {device} ({count})",
+  "@syncP2pSentTo": {
+    "description": "Expandable list header; count is the number of changes",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncQuotaUsed": "{used} of {quota} used ({percent}%)",
+  "@syncQuotaUsed": {
+    "description": "Server storage quota headline; used/quota are byte sizes",
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "quota": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "syncQuotaSemantics": "Server storage used",
+  "@syncQuotaSemantics": {
+    "description": "Screen-reader label of the quota bar"
+  },
+  "syncQuotaFull": "Full: the server refuses new changes until you compact or remove attachments.",
+  "syncQuotaNearlyFull": "Nearly full. Compacting usually frees most of it.",
+  "syncNotConfiguredOpenSettings": "Sync is not configured. Open Sync Settings first.",
+  "syncNoServerConfigured": "No sync server is configured. Use \"Sync P2P...\" for local sync, or add a server in Preferences → Sync.",
+  "syncAlreadyInProgress": "Sync already in progress",
+  "syncAlreadyInProgressSentence": "A sync is already in progress.",
+  "syncApplyOneOf": "{total, plural, other{{done} of {totalText} changes}}",
+  "@syncApplyOneOf": {
+    "description": "Apply progress inside one large packet. done/totalText are formatted numbers such as '4,200'",
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "done": {
+        "type": "String"
+      },
+      "totalText": {
+        "type": "String"
+      }
+    }
+  },
+  "syncApplyPacketOf": "{count, plural, other{{countText} changes · packet {current} of {packets}}}",
+  "@syncApplyPacketOf": {
+    "description": "Apply progress over several packets. countText is the formatted change count such as '4,200'",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "countText": {
+        "type": "String"
+      },
+      "current": {
+        "type": "int"
+      },
+      "packets": {
+        "type": "int"
+      }
+    }
+  },
+  "syncApplyChanges": "{count, plural, other{{countText} changes}}",
+  "@syncApplyChanges": {
+    "description": "Apply progress. countText is the formatted change count such as '4,200'",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "countText": {
+        "type": "String"
+      }
+    }
+  },
+  "syncApplySecondsLeft": "{progress} · about {seconds} s left",
+  "@syncApplySecondsLeft": {
+    "description": "progress is syncApply*",
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "syncApplyMinutesLeft": "{progress} · about {minutes} min left",
+  "@syncApplyMinutesLeft": {
+    "description": "progress is syncApply*",
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "syncForkDetected": "Device stream fork detected: a remote node holds packet counter {remote} for this device, but this device is at {local}, and it cannot confirm the two agree on what came before (database restored from a backup?). Use \"Reset device identity\" in Preferences → Sync to resume syncing.",
+  "@syncForkDetected": {
+    "placeholders": {
+      "remote": {
+        "type": "int"
+      },
+      "local": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStreamDiverged": "Device stream diverged at packet counter {counter}: this device and {source} hold different content under the same identity ({localHash} here vs {remoteHash} there). This database was most likely restored from a backup and has re-used packet numbers it had already published. Use \"Reset device identity\" in Preferences → Sync to resume syncing; it republishes this database under a fresh identity and nothing is lost.",
+  "@syncStreamDiverged": {
+    "description": "source is a technical node name ('relay https://…', 'peer <id>@host:port'); the hashes are short hex",
+    "placeholders": {
+      "counter": {
+        "type": "int"
+      },
+      "source": {
+        "type": "String"
+      },
+      "localHash": {
+        "type": "String"
+      },
+      "remoteHash": {
+        "type": "String"
+      }
+    }
+  },
+  "syncStreamGap": "The server is missing part of this device's history: it expects packet #{expected} next, but the earliest packet this device still holds is #{local}, and the ones in between are no longer here (the server was most likely restored from an older backup after this device compacted). Use \"Reset device identity\" in Preferences → Sync to resume syncing; it republishes this database under a fresh identity and nothing is lost.",
+  "@syncStreamGap": {
+    "description": "expected is a number or '?'",
+    "placeholders": {
+      "expected": {
+        "type": "String"
+      },
+      "local": {
+        "type": "int"
+      }
+    }
+  },
+  "syncIdentityReset": "This device now syncs under a new identity. Its next sync publishes a full copy of the current database, which every other device merges normally.",
+  "syncIdentityResetDiscarded": "{count, plural, other{This device now syncs under a new identity. Its next sync publishes a full copy of the current database, which every other device merges normally. {count} unusable packet(s) were discarded.}}",
+  "@syncIdentityResetDiscarded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDetailDerivingKey": "Deriving encryption key",
+  "@syncDetailDerivingKey": {
+    "description": "Sync progress: what a stage is doing"
+  },
+  "syncDetailSignedIn": "Already signed in",
+  "syncDetailPackaging": "Packaging local changes",
+  "syncDetailRecovering": "Recovering this device's own history",
+  "syncDetailUploading": "Uploading to server",
+  "syncDetailNoLocalChanges": "No local changes",
+  "syncDetailPushed": "{count, plural, =1{1 change pushed} other{{count} changes pushed}}",
+  "@syncDetailPushed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDetailDownloading": "Downloading remote changes",
+  "syncDetailAttachmentsDownloaded": "{count, plural, =1{1 attachment downloaded} other{{count} attachments downloaded}}",
+  "@syncDetailAttachmentsDownloaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDetailAttachmentsWaiting": "{count, plural, =1{1 attachment still to download} other{{count} attachments still to download}}",
+  "@syncDetailAttachmentsWaiting": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDetailUpToDate": "Already up to date",
+  "syncDetailApplied": "{count, plural, =1{1 change applied} other{{count} changes applied}}",
+  "@syncDetailApplied": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDetailCancelled": "Cancelled",
+  "syncAttachmentNotDownloaded": "The attachment \"{name}\" has not downloaded to this device yet, and a change this device made refers to it, so this device's changes cannot reach the server until it arrives — sync again once it has, or sync with a nearby device that holds it.",
+  "@syncAttachmentNotDownloaded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncAttachmentTooLarge": "The server refused the attachment \"{name}\" ({size}) as too large. Everything else syncs; the attachment itself reaches other devices only through Sync P2P.",
+  "@syncAttachmentTooLarge": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncAttachmentTooLargeLimit": "The server refused the attachment \"{name}\" ({size}) as too large (its limit is {limit}). Everything else syncs; the attachment itself reaches other devices only through Sync P2P.",
+  "@syncAttachmentTooLargeLimit": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "syncAttachmentOverQuota": "The attachment \"{name}\" ({size}) does not fit in your server storage. Everything else syncs; compact data on the server or remove large attachments to make room, and until then the attachment reaches other devices only through Sync P2P.",
+  "@syncAttachmentOverQuota": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "syncAttachmentOverQuotaUsage": "The attachment \"{name}\" ({size}) does not fit in your server storage ({used} of {quota} used). Everything else syncs; compact data on the server or remove large attachments to make room, and until then the attachment reaches other devices only through Sync P2P.",
+  "@syncAttachmentOverQuotaUsage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      },
+      "used": {
+        "type": "String"
+      },
+      "quota": {
+        "type": "String"
+      }
+    }
+  },
+  "syncBytes": "{count, plural, other{{count} bytes}}",
+  "@syncBytes": {
+    "description": "A size below 1 KB",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncCompactUnavailable": "No sync server is configured. Compaction publishes a snapshot to the relay; with nearby-device sync alone there is no relay storage to reclaim.",
+  "syncCompactStageSyncing": "Syncing before compaction",
+  "@syncCompactStageSyncing": {
+    "description": "Compaction progress; shown followed by '…'"
+  },
+  "syncCompactStageChecking": "Checking this device is up to date",
+  "syncCompactStagePackaging": "Packaging a snapshot of the whole database",
+  "syncCompactStageAttachments": "Uploading attachments the snapshot references",
+  "syncCompactStageUploading": "Uploading the snapshot",
+  "syncCompactStageReclaiming": "Reclaiming space on this device",
+  "syncCompactStageReadingUsage": "Reading relay storage",
+  "syncCompactNeedsSync": "Compaction needs a completed sync first: {error}",
+  "@syncCompactNeedsSync": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactDidNotFinish": "Compaction did not finish.",
+  "syncCompactRaced": "Another sync packaged first. Try compacting again.",
+  "syncCompactSnapshotMissing": "The snapshot was packaged but is not in the local store.",
+  "syncCompactMissingAttachments": "This device is still missing some attachments. Sync until every attachment has downloaded, then compact.",
+  "syncCompactRelayRefused": "Relay refused the snapshot: {error}",
+  "@syncCompactRelayRefused": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactError": "Compaction failed: {error}",
+  "@syncCompactError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactBlockedUnreadable": "{count, plural, other{This device could not read {count} packet(s) ({packets}), so its state is not the merge of everything in the log. Compacting would discard packets this device never applied.}}",
+  "@syncCompactBlockedUnreadable": {
+    "description": "packets lists up to three packet ids",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "packets": {
+        "type": "String"
+      }
+    }
+  },
+  "syncCompactBlockedUnsynced": "This device still has unsynced edits. Sync first, then compact.",
+  "syncCompactBlockedAttachments": "{count, plural, other{This device is still missing some attachments ({count} to download), so its snapshot could not supply them and the server would drop them. Sync until every attachment has downloaded, then compact.}}",
+  "@syncCompactBlockedAttachments": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncCompactBlockedBehind": "{count, plural, other{This device has not applied everything it holds for {count} device(s). Sync again, then compact.}}",
+  "@syncCompactBlockedBehind": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncCollectNoRelay": "Nearby-device sync alone cannot guarantee another device still holds a deleted attachment, so none were released.",
+  "@syncCollectNoRelay": {
+    "description": "Shown after Compact Database: why deleted attachments' bytes were kept"
+  },
+  "syncCollectUnsynced": "This device has changes the server has not stored yet. Sync first, then compact.",
+  "syncSummarySnapshotOf": "Snapshot of {device}",
+  "@syncSummarySnapshotOf": {
+    "description": "A row in the list of changes sent to a peer that stands for a whole full-state snapshot; device is a device name",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSummarySnapshotFields": "{count, plural, other{{count} fields — the whole database}}",
+  "@syncSummarySnapshotFields": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncSummaryNode": "Node \"{name}\"",
+  "@syncSummaryNode": {
+    "description": "A task (outline node) in a list of synced changes",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSummaryFile": "File \"{name}\"",
+  "@syncSummaryFile": {
+    "description": "An attachment in a list of synced changes",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSummaryFileFallback": "file",
+  "@syncSummaryFileFallback": {
+    "description": "Name used for an attachment with no file name, inside syncSummaryFile"
+  },
+  "syncSummaryTimeChunk": "Time chunk",
+  "@syncSummaryTimeChunk": {
+    "description": "A time-tracking record in a list of synced changes"
+  },
+  "syncSummaryRenamedTo": "renamed to \"{title}\"",
+  "@syncSummaryRenamedTo": {
+    "description": "One item of a comma-separated list of what changed on a task",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSummaryContentEdited": "content edited",
+  "@syncSummaryContentEdited": {
+    "description": "One item of a comma-separated list of what changed on a task"
+  },
+  "syncSummaryMoved": "moved",
+  "@syncSummaryMoved": {
+    "description": "One item of a comma-separated list of what changed on a task"
+  },
+  "syncSummaryReordered": "reordered",
+  "@syncSummaryReordered": {
+    "description": "One item of a comma-separated list of what changed on a task or file"
+  },
+  "syncSummaryFlagsChanged": "flags changed",
+  "@syncSummaryFlagsChanged": {
+    "description": "One item of a comma-separated list of what changed on a task"
+  },
+  "syncSummaryRenamed": "renamed",
+  "@syncSummaryRenamed": {
+    "description": "One item of a comma-separated list of what changed on a file"
+  },
+  "syncSummaryContentUpdated": "content updated",
+  "@syncSummaryContentUpdated": {
+    "description": "One item of a comma-separated list of what changed on a file"
+  },
+  "syncSummaryFrom": "from {time}",
+  "@syncSummaryFrom": {
+    "description": "A time record with only a start time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSummaryUntil": "until {time}",
+  "@syncSummaryUntil": {
+    "description": "A time record with only an end time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "syncValueTopLevel": "top level",
+  "@syncValueTopLevel": {
+    "description": "The value of a task's parent when it sits at the top of the outline"
+  },
+  "syncStorageFull": "Server storage is full. Compact data on the server (Preferences → Sync → Server storage) or remove large attachments; what has not been uploaded stays on this device.",
+  "syncStorageFullUsage": "Server storage is full ({used} of {quota} used). Compact data on the server (Preferences → Sync → Server storage) or remove large attachments; what has not been uploaded stays on this device.",
+  "@syncStorageFullUsage": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "quota": {
+        "type": "String"
+      }
+    }
+  },
+  "syncStorageStreams": "The server refuses another device stream for this account: {detail}",
+  "@syncStorageStreams": {
+    "description": "detail is the server's own (English) message",
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "syncStorageServerDisk": "The server is out of disk space. Nothing was lost; sync again later.",
+  "syncStorageRefused": "The server refused to store more: {detail}",
+  "@syncStorageRefused": {
+    "description": "detail is the server's own (English) message",
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "syncRegAccountLimit": "This server is not accepting new accounts: it has reached its account limit.",
+  "syncRegClosed": "This server does not accept sign-ups. Ask its operator for an account.",
+  "syncRegTaken": "That user name is already taken.",
+  "syncRegInvalid": "The user name must be 3–50 characters and the server password 8–128.",
+  "syncRegTooManyFromNetwork": "Too many accounts have been registered from this network today.",
+  "syncRegTooManyFromNetworkWait": "Too many accounts have been registered from this network today. Try again in {wait}.",
+  "@syncRegTooManyFromNetworkWait": {
+    "description": "wait is syncWaitSeconds/Minutes/Hours",
+    "placeholders": {
+      "wait": {
+        "type": "String"
+      }
+    }
+  },
+  "syncRegTooManyAttempts": "Too many attempts.",
+  "syncRegTooManyAttemptsWait": "Too many attempts. Try again in {wait}.",
+  "@syncRegTooManyAttemptsWait": {
+    "description": "wait is syncWaitSeconds/Minutes/Hours",
+    "placeholders": {
+      "wait": {
+        "type": "String"
+      }
+    }
+  },
+  "syncRegBusy": "The server is busy. Try again in a moment.",
+  "syncRegFailed": "Registration failed (HTTP {status})",
+  "@syncRegFailed": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "syncRegFailedDetail": "Registration failed (HTTP {status}): {detail}",
+  "@syncRegFailedDetail": {
+    "description": "detail is the server's own (English) message",
+    "placeholders": {
+      "status": {
+        "type": "int"
+      },
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "syncWaitSeconds": "{count, plural, other{{count} seconds}}",
+  "@syncWaitSeconds": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncWaitMinutes": "{count, plural, other{{count} minutes}}",
+  "@syncWaitMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncWaitHours": "{count, plural, other{{count} hours}}",
+  "@syncWaitHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncTimeoutNoResponse": "No response from {host} within {seconds}s",
+  "@syncTimeoutNoResponse": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "syncTimeoutStalled": "Response from {host} stalled for {seconds}s",
+  "@syncTimeoutStalled": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "traceMoreRows": "{count, plural, other{…and {count} more — {where}}}",
+  "@traceMoreRows": {
+    "description": "Last line of a capped list of sync changes. {where} says where the rest are, e.g. 'see the Sync Log'.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "where": {
+        "type": "String"
+      }
+    }
+  },
+  "traceMoreSeeSyncLog": "see the Sync Log",
+  "@traceMoreSeeSyncLog": {
+    "description": "Fills {where} in traceMoreRows: the rows left out are in the Sync Log dialog."
+  },
+  "traceAtTopLevel": "at top level",
+  "@traceAtTopLevel": {
+    "description": "Under a changed task in a sync report: it sits at the top level of the outline."
+  },
+  "traceInPath": "in {path}",
+  "@traceInPath": {
+    "description": "Under a changed task in a sync report: where it is. {path} is its ancestors joined by ' › '.",
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRowNew": "(new)",
+  "@traceRowNew": {
+    "description": "Tag after an item a sync created."
+  },
+  "traceRowRemoved": "(removed)",
+  "@traceRowRemoved": {
+    "description": "Tag after an item a sync removed."
+  },
+  "traceShowHowTooltip": "Show how this change happened",
+  "@traceShowHowTooltip": {
+    "description": "Tooltip on a row of a sync report that opens its details."
+  },
+  "traceBytes": "{count} B",
+  "@traceBytes": {
+    "description": "A size in bytes.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceKilobytes": "{size} KB",
+  "@traceKilobytes": {
+    "description": "A size in kilobytes; {size} is already formatted, e.g. 12.5.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "traceMegabytes": "{size} MB",
+  "@traceMegabytes": {
+    "description": "A size in megabytes; {size} is already formatted, e.g. 3.2.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "traceDecisionApplied": "applied",
+  "@traceDecisionApplied": {
+    "description": "What sync decided about a field: the incoming value was applied."
+  },
+  "traceDecisionCreated": "created here",
+  "@traceDecisionCreated": {
+    "description": "What sync decided about a field: the item was created on this device."
+  },
+  "traceDecisionConflictCopy": "applied — the value it replaced was kept as a conflict copy",
+  "traceDecisionMerged": "merged with the edit made here — both changes kept",
+  "traceDecisionCycleToRoot": "moved to the top level — its parent would have made a loop",
+  "traceDecisionParentMissing": "placed at the top level until its parent arrives",
+  "traceDecisionBlobPending": "applied — the attachment bytes follow separately",
+  "traceDecisionSent": "sent",
+  "@traceDecisionSent": {
+    "description": "What sync did with an outgoing field change."
+  },
+  "traceDecisionForwarded": "forwarded",
+  "@traceDecisionForwarded": {
+    "description": "What sync did with a field change served to another device."
+  },
+  "traceRouteRelay": "Downloaded from the relay.",
+  "@traceRouteRelay": {
+    "description": "How a sync packet arrived. 'Relay' is the sync server."
+  },
+  "traceRouteRelayStored": "Downloaded from the relay, which stored it {time}.",
+  "@traceRouteRelayStored": {
+    "description": "How a sync packet arrived; {time} is a date and time.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRoutePeerForwarded": "Forwarded by {peer} over the local network — {author} wrote it.",
+  "@traceRoutePeerForwarded": {
+    "description": "{peer} and {author} are device names.",
+    "placeholders": {
+      "peer": {
+        "type": "String"
+      },
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRoutePeerDirect": "Directly from {peer} over the local network.",
+  "@traceRoutePeerDirect": {
+    "description": "{peer} is a device name.",
+    "placeholders": {
+      "peer": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRouteStoredEarlier": "Already on this device from an earlier exchange; applied in this one.",
+  "traceRouteStoredAt": "Already on this device — received {time}; applied in this one.",
+  "@traceRouteStoredAt": {
+    "description": "{time} is a date and time.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRouteStoredAtFrom": "Already on this device — received {time} from {source}; applied in this one.",
+  "@traceRouteStoredAtFrom": {
+    "description": "{time} is a date and time; {source} is as the sync log recorded it, e.g. 'relay https://…' or 'peer Laptop' (not translated).",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRoutePackagedUploaded": "Packaged here and uploaded to the relay.",
+  "traceRoutePackagedAlreadyHeld": "Packaged here; the relay already had it from another path.",
+  "traceRoutePackagedBlocked": "Packaged here; not uploaded yet — an attachment it needs could not go up.",
+  "traceRoutePackagedWaiting": "Packaged here; waiting for the relay or a peer to take it.",
+  "traceRouteServedForwarded": "Pulled by {peer} over the local network — forwarded on {author}'s behalf.",
+  "@traceRouteServedForwarded": {
+    "description": "{peer} and {author} are device names.",
+    "placeholders": {
+      "peer": {
+        "type": "String"
+      },
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "traceRouteServedDirect": "Pulled by {peer} over the local network.",
+  "@traceRouteServedDirect": {
+    "description": "{peer} is a device name.",
+    "placeholders": {
+      "peer": {
+        "type": "String"
+      }
+    }
+  },
+  "traceBlobDownloaded": "downloaded now",
+  "@traceBlobDownloaded": {
+    "description": "State of an attachment's bytes after a sync."
+  },
+  "traceBlobDownloadedSized": "downloaded now ({size})",
+  "@traceBlobDownloadedSized": {
+    "description": "{size} is formatted, e.g. '12.5 KB'.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "traceBlobDownloadedFrom": "downloaded now from {source}",
+  "@traceBlobDownloadedFrom": {
+    "description": "{source} is where the bytes came from, as the source names itself.",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "traceBlobDownloadedFromSized": "downloaded now from {source} ({size})",
+  "@traceBlobDownloadedFromSized": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "traceBlobWaiting": "not downloaded yet — it follows on a later sync, or when opened",
+  "traceBlobHeld": "already on this device",
+  "traceBlobUploaded": "uploaded to the relay",
+  "traceBlobUploadedSized": "uploaded to the relay ({size})",
+  "@traceBlobUploadedSized": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "traceBlobOnRelay": "the relay already had them",
+  "@traceBlobOnRelay": {
+    "description": "'them' = the attachment's bytes."
+  },
+  "traceBlobOffered": "on this device for others to fetch",
+  "traceBlobLine": "{id} — {state}",
+  "@traceBlobLine": {
+    "description": "One attachment under 'Attachment bytes': a short id, then its state (one of the traceBlob… messages).",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "traceSnapshotWhole": "A compaction snapshot: the whole database of {device}, in one packet.",
+  "@traceSnapshotWhole": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "traceSnapshotPart": "Part of a full-state snapshot from {device}. A snapshot carries the author's whole database; this item is listed because it differed here.",
+  "@traceSnapshotPart": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "traceFieldsHeading": "Fields",
+  "@traceFieldsHeading": {
+    "description": "Heading in a sync change's details: the fields that changed."
+  },
+  "traceTimeEdited": "edited {time}",
+  "@traceTimeEdited": {
+    "description": "When an outgoing field was edited; {time} is a date and time.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "traceTimeTheirs": "theirs {time}",
+  "@traceTimeTheirs": {
+    "description": "The other device's timestamp for a field; {time} is a date and time.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "traceTimeThisDevice": "this device {time}",
+  "@traceTimeThisDevice": {
+    "description": "This device's timestamp for a field; {time} is a date and time.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tracePacketHeading": "Packet {device} #{counter}",
+  "@tracePacketHeading": {
+    "description": "Heading for a sync packet: its author device and its number.",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "counter": {
+        "type": "String"
+      }
+    }
+  },
+  "tracePacketHeadingSnapshot": "Packet {device} #{counter} (snapshot)",
+  "@tracePacketHeadingSnapshot": {
+    "description": "Heading for a sync packet that is a full-state snapshot.",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "counter": {
+        "type": "String"
+      }
+    }
+  },
+  "tracePacketWritten": "written {time}",
+  "@tracePacketWritten": {
+    "description": "When a sync packet was made; {time} is a date and time.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tracePacketChanges": "{count, plural, =1{1 change} other{{count} changes}}",
+  "@tracePacketChanges": {
+    "description": "How many field changes a sync packet carries.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tracePacketAuthorTooltip": "Author device {id}",
+  "@tracePacketAuthorTooltip": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "tracePacketFromDevice": "from device {id}",
+  "@tracePacketFromDevice": {
+    "description": "{id} is a shortened device id.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "traceCopyHashTooltip": "Copy the packet hash",
+  "traceAttachmentBytesHeading": "Attachment bytes",
+  "@traceAttachmentBytesHeading": {
+    "description": "Heading in a sync change's details: where the attachment's data stands."
+  },
+  "traceShowInSyncLog": "Show in Sync Log",
+  "@traceShowInSyncLog": {
+    "description": "Button that opens the Sync Log dialog on this change."
+  },
+  "traceTriggerRelay": "Server sync",
+  "@traceTriggerRelay": {
+    "description": "Sync Log: what started a run."
+  },
+  "traceTriggerCheck": "Check for incoming changes",
+  "traceTriggerLan": "Nearby devices",
+  "traceTriggerLanReturn": "Nearby device (requested)",
+  "traceTriggerLanServe": "Served to nearby device",
+  "traceTriggerPackage": "Packaged local changes",
+  "traceTriggerCompaction": "Compaction",
+  "traceTriggerIdentityReset": "Device identity reset",
+  "traceTriggerAttachment": "Attachment download",
+  "traceTriggerBlobCollect": "Attachment clean-up",
+  "traceOutcomeRunning": "running",
+  "@traceOutcomeRunning": {
+    "description": "Sync Log: how a run ended (lowercase, shown in a list line)."
+  },
+  "traceOutcomeFailed": "failed",
+  "traceOutcomeDeclined": "declined",
+  "traceOutcomeBusy": "busy",
+  "@traceOutcomeBusy": {
+    "description": "Sync Log: the run did not start because another sync was in progress."
+  },
+  "traceOutcomeInterrupted": "interrupted",
+  "traceCopiedJson": "{count, plural, other{Copied {count} event(s) as JSON}}",
+  "@traceCopiedJson": {
+    "description": "Snack bar after copying Sync Log events.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceClearTitle": "Clear sync log?",
+  "traceClearBody": "Every recorded run and event on this device is deleted. Synced data is not affected.",
+  "traceTitle": "Sync Log",
+  "@traceTitle": {
+    "description": "Title of the Sync Log dialog."
+  },
+  "traceCopyAsJson": "Copy as JSON",
+  "@traceCopyAsJson": {
+    "description": "Button / tooltip."
+  },
+  "traceClearLogTooltip": "Clear log",
+  "@traceClearLogTooltip": {
+    "description": "Tooltip on the phone layout's clear button."
+  },
+  "traceClearLogButton": "Clear Log",
+  "@traceClearLogButton": {
+    "description": "Button label (title case)."
+  },
+  "traceSummaryApplied": "{count} applied",
+  "@traceSummaryApplied": {
+    "description": "Part of a Sync Log run summary: how many changes were applied.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceSummaryWarnings": "{count, plural, =1{1 warning} other{{count} warnings}}",
+  "@traceSummaryWarnings": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceSummaryErrors": "{count, plural, =1{1 error} other{{count} errors}}",
+  "@traceSummaryErrors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceNothingExchanged": "Nothing exchanged",
+  "traceNoRuns": "No sync has been recorded yet. Runs appear here as this device syncs with the server or with nearby devices.",
+  "traceAllRuns": "All runs",
+  "traceRunsRecorded": "{count} recorded",
+  "@traceRunsRecorded": {
+    "description": "Under 'All runs': how many runs are recorded.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceAllRunsCount": "All runs ({count})",
+  "@traceAllRunsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceRunLabel": "Run",
+  "@traceRunLabel": {
+    "description": "Label of the run picker; also a row label in an event's details."
+  },
+  "traceSearchHint": "Search: node name, id, hash, device, kind…",
+  "traceLevelAll": "All",
+  "@traceLevelAll": {
+    "description": "Filter segment: events of every level."
+  },
+  "traceLevelWarnings": "Warnings",
+  "traceLevelErrors": "Errors",
+  "traceDirectionAll": "In and out",
+  "traceDirectionIncoming": "Incoming",
+  "traceDirectionOutgoing": "Outgoing",
+  "traceDirectionLocal": "Local",
+  "traceNoEvents": "No events match.",
+  "traceEventsTruncated": "{count, plural, other{Showing the first {count} events. Narrow the search or pick a run to see the rest.}}",
+  "@traceEventsTruncated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "traceRunNumber": "Run #{id}",
+  "@traceRunNumber": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "traceEmptyValue": "(empty)",
+  "@traceEmptyValue": {
+    "description": "Sync Log: a field whose new value is empty."
+  },
+  "traceSubHash": "hash {hash}",
+  "@traceSubHash": {
+    "placeholders": {
+      "hash": {
+        "type": "String"
+      }
+    }
+  },
+  "traceSubValue": "value {hash}",
+  "@traceSubValue": {
+    "description": "{hash} is a hash of the value.",
+    "placeholders": {
+      "hash": {
+        "type": "String"
+      }
+    }
+  },
+  "traceSubRemote": "remote {time}",
+  "@traceSubRemote": {
+    "description": "The incoming change's timestamp.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "traceSubLocal": "local {time}",
+  "@traceSubLocal": {
+    "description": "This device's timestamp.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "traceDetailAt": "At",
+  "traceDetailDirection": "Direction",
+  "traceDetailOriginDevice": "Origin device",
+  "traceDetailCounter": "Counter",
+  "traceDetailHash": "Packet / blob hash",
+  "traceDetailEntity": "Entity",
+  "traceDetailWorldId": "World id",
+  "traceDetailName": "Name",
+  "traceDetailField": "Field",
+  "traceDetailRemoteTs": "Remote timestamp",
+  "traceDetailLocalTs": "Local timestamp",
+  "traceDetailValueHash": "Value hash",
+  "traceDetailValuePreview": "Value preview",
+  "traceDetailMessage": "Message",
+  "traceDetailDetail": "Detail"
+}

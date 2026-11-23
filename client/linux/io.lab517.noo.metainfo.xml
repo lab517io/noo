@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AppStream metadata: what software centres and catalogues (AppImageHub,
+  Flathub, GNOME Software, Discover) show for Noo. The id, the desktop file
+  (io.lab517.noo.desktop) and APPLICATION_ID in CMakeLists.txt are one name.
+
+  <releases> is filled in by scripts/build_linux.py from the changelogs in
+  fastlane/metadata/android/en-US/changelogs, so release notes are written
+  once, for every store. Leave it empty here.
+-->
+<component type="desktop-application">
+  <id>io.lab517.noo</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <name>Noo</name>
+  <summary>Encrypted outliner with time tracking</summary>
+  <developer id="io.lab517">
+    <name>lab517.io</name>
+  </developer>
+
+  <description>
+    <p>
+      Noo is a tiny outliner with time tracking. Notes and tasks live in a tree
+      with unlimited nesting, in one encrypted database file that only you can
+      open. The same database opens on Linux, Windows, macOS and Android.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Outline: nest tasks as deep as you like, move them with drag and drop or the keyboard, and find anything with full-text search over titles and notes</li>
+      <li>Rich-text notes: formatting, lists, headings, fonts and colours, inline images, and a command that lines up colon-separated columns as a table</li>
+      <li>Time tracking: start and stop a timer on any task; reports as a tree, per day, as a flat list or as CSV</li>
+      <li>Attachments: any file, with image previews and audio playback in place</li>
+      <li>Voice memos, with optional speech-to-text by whisper.cpp that runs entirely on your computer</li>
+      <li>Encrypted storage: the database is encrypted at rest, and the password can be kept in the desktop keyring</li>
+      <li>End-to-end encrypted sync between your devices, through a relay server you run yourself or directly over the local network with no server and no account</li>
+      <li>Obsidian export and import, and a local MCP server so AI coding agents can read and edit the outline, off by default</li>
+    </ul>
+    <p>
+      Noo connects to nothing unless you ask it to: sync talks only to the
+      server you enter, and the speech model is downloaded only when you press
+      Download in Preferences.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.lab517.noo.desktop</launchable>
+  <provides>
+    <binary>noo</binary>
+  </provides>
+
+  <url type="homepage">https://github.com/lab517io/noo</url>
+  <url type="bugtracker">https://github.com/lab517io/noo/issues</url>
+
+  <categories>
+    <category>Office</category>
+    <category>ProjectManagement</category>
+  </categories>
+  <keywords>
+    <keyword>outliner</keyword>
+    <keyword>notes</keyword>
+    <keyword>tasks</keyword>
+    <keyword>time tracking</keyword>
+    <keyword>encrypted</keyword>
+  </keywords>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+
+  <content_rating type="oars-1.1"/>
+
+  <releases/>
+</component>

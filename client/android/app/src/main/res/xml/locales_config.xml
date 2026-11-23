@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The interface languages, so Android 13+ offers them under
+     Settings > Apps > Noo > Language. Keep in step with kAppLanguages
+     (lib/l10n/l10n.dart). -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en"/>
+    <locale android:name="de"/>
+    <locale android:name="fr"/>
+    <locale android:name="it"/>
+    <locale android:name="ru"/>
+    <locale android:name="tr"/>
+    <locale android:name="zh-Hans"/>
+    <locale android:name="ja"/>
+</locale-config>

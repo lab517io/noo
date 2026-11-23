@@ -1,0 +1,1 @@
+Help has a new Logs submenu: Sync Log has moved there from Tools, and App Log shows the app's own messages and errors for the current session, with copy, save and filter.
